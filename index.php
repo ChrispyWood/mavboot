@@ -49,7 +49,7 @@ include "./_includes/01-navigation.php";
 ?> 
     <div class='col-md-3' id='site-sidebar'><!--Sidebar-->
         <aside>
-            Sidebar
+            <?php include "./_includes/10-sidebar.php"; ?>
         </aside>
     </div><!--/Sidebar-->
 </div><!--/Main row-->
