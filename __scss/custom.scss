@@ -1,0 +1,28 @@
+/******************************************************************************
+ * custom.scss
+ * Builds the bootstrap CSS
+ *
+ * Option A: Include all of Bootstrap
+ * From root sass --watch __scss/custom.scss:_css/style.css --style compressed
+ * From root sass __scss/custom.scss:_css/style.css --style compressed
+ *
+ *******************************************************************************/
+
+/*!  
+ * Bootstrap Themed for mavboot
+ */
+
+
+
+
+
+
+
+
+ 
+/******************************************************************************
+ * Building Bootstrap
+ ******************************************************************************/
+
+ @import "../node_modules/bootstrap/scss/bootstrap";
+
