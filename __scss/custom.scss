@@ -551,14 +551,10 @@ div#global-navigation {border-top: 6px solid #f58025; background-color:$uta-dark
 
 .alert:before {
     font-family: Font Awesome\ 5 Free;
-    font-weight: 900;
-    align-items: center;
-    bottom: 0;
-    display: flex;
-    left: 0;
-    padding: .75rem 1.25rem;
-    position: absolute;
-    top: 0;
+    font-weight: 900;align-items: center;
+    bottom: 0;display: flex;
+    left: 0;padding: .75rem 1.25rem;
+    position: absolute; top: 0;
 }
 .alert-success:before {color: $success; content: "\f058";}
 .alert-danger:before {content: "\f056";transform: rotate(40deg);color:$danger}
@@ -569,7 +565,7 @@ div#global-navigation {border-top: 6px solid #f58025; background-color:$uta-dark
 #site-sidebar {border-left:1px solid $uta-orange}
 
 // Main Content Area
-#maincontent {min-height:660px;}
+#maincontent {min-height:720px;}
 
 // Footer
 #footer-area {
@@ -585,3 +581,6 @@ p#footer-links {
     text-align:right;
     padding-top:30px;
 }
+
+p#footer-links a {color:#dedede;}
+p#footer-links a:hover {text-decoration: underline}
