@@ -25,9 +25,10 @@
     <link href="./_icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
     <link href="./_icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
 
-    <!-- Bootstrap & Custom CSS -->
-    <link rel="stylesheet" href="./_css/style.css">
+    <!-- Bootstrap & Fontawsome -->
+    <link rel="stylesheet" href="./_css/style.css?v=<?php echo rand(0,30000000);?>">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
 </head>
 
@@ -142,10 +143,10 @@ Fancy display heading
 <h2>Preformatted</h2>
 <pre>
 ____________________|____________________
-\  |   |  /
-`.#####.'
-/`#_#'\
-O'   O   `O  -WDW
+               \  |   |  /
+                `.#####.'
+                 /`#_#'\
+               O'   O   `O  -WDW
 </pre>
 
 <hr>
