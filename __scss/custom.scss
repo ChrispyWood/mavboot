@@ -517,8 +517,9 @@ $alert-color-level:                 9 !default;
 /******************************************************************************
  * Customization for UTA Build
  ******************************************************************************/
+
 // Skip to Content Link
-.skippy {display: block;padding: 1em;color: $white;text-align: center;background-color: $uta-darkblue;outline: 0;  
+.skippy {display: block;padding: 1em !important;color: $white;text-align: center;background-color: $uta-darkblue;outline: 0;  
     @include hover() {color: $white;}
 } 
 .skippy-text {padding: .5em;outline: 1px dotted;}
@@ -563,3 +564,24 @@ div#global-navigation {border-top: 6px solid #f58025; background-color:$uta-dark
 .alert-danger:before {content: "\f056";transform: rotate(40deg);color:$danger}
 .alert-warning:before {content: "\f071";color:$warning}
 .alert-info:before {content: "\f05a";color:$info}
+
+// Sidebar
+#site-sidebar {border-left:1px solid $uta-orange}
+
+// Main Content Area
+#maincontent {min-height:660px;}
+
+// Footer
+#footer-area {
+    background-color: #003366;
+    color: white;
+    margin-top: 20px;
+    padding: 20px 0 40px 0;
+    min-height:200px;
+}
+p#footer-links {
+    font-size: 0.9em;
+    color: $gray-200;
+    text-align:right;
+    padding-top:30px;
+}
