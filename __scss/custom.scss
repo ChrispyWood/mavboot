@@ -8,6 +8,16 @@
  *
  *******************************************************************************/
 
+/******************************************************************************
+    UTA Colors
+
+    Orange - #f58025
+    Blue - #0064b1
+    Dark Blue - #00447c
+
+ *******************************************************************************/
+
+
 /*!  
  * Bootstrap Themed for mavboot
  */
@@ -19,10 +29,48 @@
 
 
 
- 
 /******************************************************************************
  * Building Bootstrap
  ******************************************************************************/
 
  @import "../node_modules/bootstrap/scss/bootstrap";
 
+// Top of Page Branding and Navigation
+
+@media screen and (max-width:768px) {
+    a.navbar-brand {
+        margin:0;
+    }
+}
+
+#uta-logo {
+    max-height: 35px;
+    width: auto;
+}
+
+
+#site-title {color:white}
+
+// Skip to Content Link
+
+ .skippy {
+    display: block;
+    padding: 1em;
+    color: $white;
+    text-align: center;
+    background-color: $blue;
+    outline: 0;
+  
+    @include hover() {
+      color: $white;
+    }
+  }
+  
+  .skippy-text {
+    padding: .5em;
+    outline: 1px dotted;
+  }
+  
+
+
+  div#global-navigation {border-top: 6px solid #f58025; background-color:#00447c}
