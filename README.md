@@ -2,6 +2,8 @@
 Bootstrap Themed for UTA College of Engineering 
 Started June 29, 2020
 
+This has only a few days work put into it, so there might be a few errors, please report them.
+
 ## Versions 
 Three versions are available.
 
