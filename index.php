@@ -35,7 +35,7 @@ include "./_includes/01-navigation.php";
  *************************************************************/
 ?>
 <div class='row'><!--Main row-->
-    <div class='col-md-9'><!--Main content-->
+    <div class='col-lg-9'><!--Main content-->
         <h1>Lorem Ipsum Lab</h1>
         <p class="lead">This template uses the Bootstrap framework</a>. View the <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/">Bootstrap 
         Documentation</a> to learn the many options for styling. Almost everything has a CSS to render appropriately and attractively.</p>
@@ -148,7 +148,7 @@ include "./_includes/01-navigation.php";
  *************************************************************
  *************************************************************/
 ?> 
-    <div class='col-md-3' id='site-sidebar'><!--Sidebar-->
+    <div class='col-lg-3' id='site-sidebar'><!--Sidebar-->
         <aside>
             <?php include "./_includes/10-sidebar.php"; ?>
         </aside>
