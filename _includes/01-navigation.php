@@ -9,12 +9,12 @@
     </nav>
 </div>
 
-<nav id="site-navigation" class="navbar navbar-expand-lg navbar-light bg-white mb-4 border-bottom p-0">
+<nav id="sitenav" class="navbar navbar-expand-lg navbar-light bg-white mb-4 border-bottom p-0">
     <div class="container">
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#site-navigation" aria-controls="site-navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>

@@ -530,9 +530,9 @@ $alert-color-level:                 9 !default;
 }
 #uta-logo {max-height: 35px;width: auto;}
 #site-title {color:white}
-nav#site-navigation {font-size:110%;font-weight:500}
-nav#site-navigation .nav-item a.nav-link {border-bottom:1px solid white}
-nav#site-navigation .nav-item a.nav-link:hover {border-bottom:1px solid $uta-darkblue}
+nav#sitenav {font-size:110%;font-weight:500}
+nav#sitenav .nav-item a.nav-link {border-bottom:1px solid white}
+nav#sitenav .nav-item a.nav-link:hover {border-bottom:1px solid $uta-darkblue}
 //nav#site-navigation .dropdown-menu a.dropdown-item:hover {background-color: $uta-darkblue;color:white}
 //nav#site-navigation .dropdown-menu {background-color:#efeff4}
 div#global-navigation {border-top: 6px solid #f58025; background-color:$uta-darkblue}
