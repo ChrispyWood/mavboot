@@ -565,7 +565,7 @@ div#global-navigation {border-top: 6px solid #f58025; background-color:$uta-dark
 #site-sidebar {border-left:1px solid $uta-orange}
 
 // Main Content Area
-#maincontent {min-height:720px;}
+#maincontent {min-height:700px;}
 
 // Footer
 #footer-area {
@@ -575,6 +575,14 @@ div#global-navigation {border-top: 6px solid #f58025; background-color:$uta-dark
     padding: 20px 0 40px 0;
     min-height:200px;
 }
+#footer-area h1, #footer-area h2, 
+#footer-area h3, #footer-area h4, 
+#footer-area h5, #footer-area h6 {
+    color:white;
+}
+#footer-area .social-icons {color:#dedede;font-size:2em}
+#footer-area .social-icons a {color:#dedede}
+#footer-area .social-icons a:hover {color:#ffff}
 p#footer-links {
     font-size: 0.9em;
     color: $gray-200;
@@ -582,5 +590,5 @@ p#footer-links {
     padding-top:30px;
 }
 
-p#footer-links a {color:#dedede;}
+p#footer-links, p#footer-links a {color:#dedede;}
 p#footer-links a:hover {text-decoration: underline}
