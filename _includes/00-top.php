@@ -37,10 +37,7 @@ if (!isset($og_url)) $og_url = $url;
     
     <title><?php echo $pagename; ?></title>
     <meta name="description" content="<?php echo $pagedescription; ?>">
-
-    <?php
-    if (isset($canonical_url)) echo "<link rel='canonical' href='$canonical_url' />"
-    ?>
+    <?php if (isset($canonical_url)) echo "<link rel='canonical' href='$canonical_url' />"; ?>
 
     <!-- Open Graph data: fallback for most social media service basic tags -->
     <meta property="og:title" content="<?php echo $og_title; ?>" />
@@ -53,6 +50,7 @@ if (!isset($og_url)) $og_url = $url;
     <meta name="twitter:text:title" content="<?php echo $og_title; ?>" />
     <meta name="twitter:description" content="<?php echo $og_description; ?>" />
 
+    <!-- Icons -->
     <link href="<?php echo $subpage_depth;?>_icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
     <link href="<?php echo $subpage_depth;?>_icons/favicon.ico" rel="icon" sizes="48x48">
     <link href="<?php echo $subpage_depth;?>_icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
@@ -62,5 +60,6 @@ if (!isset($og_url)) $og_url = $url;
     <link rel="stylesheet" href="<?php echo $subpage_depth;?>_css/style.css?v=<?php echo rand(0,30000000);?>">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
+    <?php if (isset($page_scripts_css)) echo $page_scripts_css; ?>
 </head>
 <body>

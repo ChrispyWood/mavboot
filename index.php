@@ -26,7 +26,9 @@ The following variables are optional for the current page.
 include "./_includes/00-top.php";
 include "./_includes/01-navigation.php";
 ?>
+<!-- Wrapper for all the page content -->
 <div class="container" id="maincontent"><!-- Main Content Container -->
+
 <?php
 /*************************************************************
  *************************************************************
@@ -36,9 +38,11 @@ include "./_includes/01-navigation.php";
 ?>
 <div class='row'><!--Main row-->
     <div class='col-lg-9'><!--Main content-->
-        <h1>Lorem Ipsum Lab</h1>
-        <p class="lead">This template uses the Bootstrap framework</a>. View the <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/">Bootstrap 
-        Documentation</a> to learn the many options for styling. Almost everything has a CSS to render appropriately and attractively.</p>
+    <main>
+
+    <h1>Lorem Ipsum Lab</h1>
+        <p class="lead">This template uses the Bootstrap framework. View the <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/">Bootstrap 
+        Documentation</a> to learn the many options for styling. Almost everything has a CSS class to render appropriately and attractively.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel sem facilisis, suscipit dolor ac, volutpat nisi. In vitae tristique nisi. 
         Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi ut metus dictum neque lobortis maximus non id 
         dolor. Suspendisse a odio vitae justo volutpat blandit a in est. Morbi tincidunt sodales semper. Cras ut purus eu nibh scelerisque iaculis 
@@ -58,33 +62,34 @@ include "./_includes/01-navigation.php";
             will that it should become a universal law.</p>
 
         <h2>Table</h2>
-        <table class="table table-hover table-sm">
+        <table class="table table-hover table-sm" id="Example_Table">
+            <caption class='sr-only'>A table of fake data to illustrate the proper way to mark up a table.</caption>
             <thead class='thead-light'>
                 <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
+                    <th scope="col" id="number">#</th>
+                    <th scope="col" id="first">First</th>
+                    <th scope="col" id="last">Last</th>
+                    <th scope="col" id="handle">Handle</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
+                    <th scope="row" id="one">1</th>
+                    <td headers="one first">Mark</td>
+                    <td headers="last">Otto</td>
+                    <td headers="handle">@mdo</td>
                 </tr>
                 <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
+                    <th scope="row" id="two">2</th>
+                    <td headers="two first">Jacob</td>
+                    <td headers="last">Thornton</td>
+                    <td headers="handle">@fat</td>
                 </tr>
                 <tr>
-                    <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
+                    <th scope="row" id="three">3</th>
+                    <td headers="three first">Larry</td>
+                    <td headers="last">the Bird</td>
+                    <td  headers="handle">@twitter</td>
                 </tr>
             </tbody>
         </table>
@@ -118,7 +123,7 @@ include "./_includes/01-navigation.php";
         <h3>Blockquote</h3>
         <blockquote class="blockquote">
             <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            <span class="blockquote-footer">Someone famous in <cite title="Some Book Title">Source Title</cite></span>
         </blockquote>
 
         <h3>Buttons</h3>
@@ -170,9 +175,9 @@ include "./_includes/01-navigation.php";
         <div class="row">
             <div class="col-md-4">
                 <div class="card" style="width: 16rem;">
-                    <img class="card-img-top" src="http://via.placeholder.com/286x180" alt="Card image cap">
+                    <img class="card-img-top" src="https://via.placeholder.com/286x180" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card One title</h5>
+                        <h4 class="card-title">Card One title</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                     <ul class="list-group list-group-flush">
@@ -188,9 +193,9 @@ include "./_includes/01-navigation.php";
             </div>
             <div class="col-md-4">
                 <div class="card" style="width: 16rem;">
-                    <img class="card-img-top" src="http://via.placeholder.com/286x180" alt="Card image cap">
+                    <img class="card-img-top" src="https://via.placeholder.com/286x180" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card Two title</h5>
+                        <h4 class="card-title">Card Two title</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                     <ul class="list-group list-group-flush">
@@ -206,9 +211,9 @@ include "./_includes/01-navigation.php";
             </div>
             <div class="col-md-4">
                 <div class="card" style="width: 16rem;">
-                    <img class="card-img-top" src="http://via.placeholder.com/286x180" alt="Card image cap">
+                    <img class="card-img-top" src="https://via.placeholder.com/286x180" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card Three title</h5>
+                        <h4 class="card-title">Card Three title</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                     <ul class="list-group list-group-flush">
@@ -222,36 +227,26 @@ include "./_includes/01-navigation.php";
                     </div>
                 </div>
             </div>
-        </div>
+        </div>        
 
+        <h3 id="endofascii">Headings</h3>
 
-        <h3>Preformatted</h3>
-<pre>
- _  _  ____  __     ____  __ _   ___  __  __ _  ____  ____  ____  __  __ _   ___ 
-/ )( \(_  _)/ _\   (  __)(  ( \ / __)(  )(  ( \(  __)(  __)(  _ \(  )(  ( \ / __)
-) \/ (  )( /    \   ) _) /    /( (_ \ )( /    / ) _)  ) _)  )   / )( /    /( (_ \
-\____/ (__)\_/\_/  (____)\_)__) \___/(__)\_)__)(____)(____)(__\_)(__)\_)__) \___/             
-</pre>
+            <h1>Heading One</h1>
+            <h2>Heading Two</h2>
+            <h3>Heading Three</h3>
+            <h4>Heading Four</h4>
+            <h5>Heading Five</h5>
+            <h6>Heading Six</h6>
+    
+        <h3>Fancy display heading <small class="text-muted">With faded secondary text</small></h3>
+        
+        <h3>Display Headings</h3>
+            <h1 class="display-1">Display 1</h1>
+            <h1 class="display-2">Display 2</h1>
+            <h1 class="display-3">Display 3</h1>
+            <h1 class="display-4">Display 4</h1>
 
-<h1>Heading One</h1>
-<h2>Heading Two</h2>
-<h3>Heading Three</h3>
-<h4>Heading Four</h4>
-<h5>Heading Five</h5>
-<h6>Heading Six</h6>
-<hr>
-<h3>
-Fancy display heading
-<small class="text-muted">With faded secondary text</small>
-</h3>
-<hr>
-<h1 class="display-1">Display 1</h1>
-<h1 class="display-2">Display 2</h1>
-<h1 class="display-3">Display 3</h1>
-<h1 class="display-4">Display 4</h1>
-<hr>
-
-
+    </main>
     </div><!--/Main content-->
 <?php
 /*************************************************************
@@ -261,11 +256,13 @@ Fancy display heading
  *************************************************************
  *************************************************************/
 ?> 
+    <!-- Sidebar -->
     <div class='col-lg-3' id='site-sidebar'><!--Sidebar-->
         <aside>
-            <?php include "./_includes/10-sidebar.php"; ?>
+<?php include "./_includes/10-sidebar.php"; ?>
         </aside>
     </div><!--/Sidebar-->
+
 </div><!--/Main row-->
 
 <?php
@@ -275,6 +272,9 @@ Fancy display heading
  *************************************************************
  *************************************************************/
 ?>
+
 </div><!-- /Main Content Container -->
+
 <?php include "./_includes/98-footer.php"; ?>
+
 <?php include "./_includes/99-bottom.php"; ?>
