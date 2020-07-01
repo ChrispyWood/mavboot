@@ -533,9 +533,11 @@ $alert-color-level:                 9 !default;
 nav#sitenav {font-size:110%;font-weight:500}
 nav#sitenav .nav-item a.nav-link {border-bottom:1px solid white}
 nav#sitenav .nav-item a.nav-link:hover {border-bottom:1px solid $uta-darkblue}
-//nav#site-navigation .dropdown-menu a.dropdown-item:hover {background-color: $uta-darkblue;color:white}
-//nav#site-navigation .dropdown-menu {background-color:#efeff4}
 div#global-navigation {border-top: 6px solid #f58025; background-color:$uta-darkblue}
+
+@media screen and (max-width:576px) {
+    nav#sitenav .nav-item a.nav-link {padding-left:20px;}
+}
 
 //Alerts
 .alert {border-left:4px solid transparent;padding-left:50px !important}
@@ -593,6 +595,11 @@ p#footer-links {
     color: $gray-200;
     text-align:right;
     padding-top:30px;
+}
+#footer-uta-name {float:right}
+@media screen and (max-width:991px) {
+    p#footer-links {text-align:left;clear:left;padding-top:0px;margin-top:0}
+    #footer-uta-name {float:left;padding-bottom:0;padding-top:15px}
 }
 
 #footer-area a {color:#dedede; text-decoration:underline}

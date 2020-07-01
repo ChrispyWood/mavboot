@@ -2,19 +2,19 @@
     <footer>
         <div class='container'>
             <div class='row'>
-                <div class='col-md-4 pt-2'>
+                <div class='col-lg-4 col-md-6 pt-2'>
                     <h2 class="h4">Lorem Ipsum Lab</h2>
                     <p>615 Nedderman Hall<br />817-555-1234<br /><a href="mailto:nobody@uta.edu">nobody@uta.edu</a></p>
                 </div>
-                <div class='col-md-4 pt-2'>
+                <div class='col-lg-4 col-md-6 pt-2'>
                     <span class='social-icons'>
                         <a href="https://www.facebook.com/mavengineering/"><i class="fab fa-facebook-square"></i></a>
                         <a href="https://twitter.com/mavengineering"><i class="fab fa-twitter-square"></i></a>
                         <a href="https://www.instagram.com/mavengineering/"><i class="fab fa-instagram"></i></a>
                     </span>
                 </div>
-                <div class='col-md-4'>
-                    <img class="float-right pb-4" src='_images/uta/name_with_logo.png' src="The University of Texas at Arlington Logo"  />
+                <div class='col-lg-4'>
+                    <img id="footer-uta-name" class="img-fluid pb-4" src='_images/uta/name_with_logo.png' src="The University of Texas at Arlington Logo"  />
                     <p id='footer-links'>
                         
                         <a href="https://www.uta.edu/legalaffairs/notices/legal-and-privacy-notice.php">Privacy and Legal Notice</a> |
