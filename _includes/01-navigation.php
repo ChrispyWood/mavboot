@@ -3,7 +3,7 @@
 
 <div id="global-navigation" class="d-flex flex-column flex-md-row align-items-center pt-1 px-md-4 navbar-dark" >
     <a class="navbar-brand" href="https://www.uta.edu/"><img src="./_images/uta/uta-logo.png" id="uta-logo"></a>
-    <span id="site-title" class="my-2 mx-3 mr-md-auto h2">MavBoot</span>
+    <span id="site-title" class="my-2 mx-3 mr-md-auto h2"><?php echo $sitename;?></span>
     <nav class="my-2 my-md-0 mr-md-3 d-none d-md-block">
       <a class="p-2 text-light" href="https://www.uta.edu/academics/schools-colleges/engineering">College of Engineering</a>
     </nav>

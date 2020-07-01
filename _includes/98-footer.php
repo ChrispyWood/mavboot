@@ -3,8 +3,8 @@
         <div class='container'>
             <div class='row'>
                 <div class='col-md-4 pt-2'>
-                    <h2 class="h4">Sample Lab Page</h2>
-                    <p>615 Nedderman Hall<br />817-272-3769</p>
+                    <h2 class="h4">Lorem Ipsum Lab</h2>
+                    <p>615 Nedderman Hall<br />817-555-1234<br /><a href="mailto:nobody@uta.edu">nobody@uta.edu</a></p>
                 </div>
                 <div class='col-md-4 pt-2'>
                     <span class='social-icons'>

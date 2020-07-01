@@ -563,6 +563,11 @@ div#global-navigation {border-top: 6px solid #f58025; background-color:$uta-dark
 
 // Sidebar
 #site-sidebar {border-left:1px solid $uta-orange}
+#site-sidebar p, #site-sidebar li {font-size: 0.95em;}
+#site-sidebar h1 {font-size:1.5em;}
+#site-sidebar h2 {font-size:1.4em;}
+#site-sidebar h3 {font-size:1.2em;}
+#site-sidebar h4 {font-size:1.1em;}
 
 // Main Content Area
 #maincontent {min-height:700px;}
@@ -590,5 +595,21 @@ p#footer-links {
     padding-top:30px;
 }
 
-p#footer-links, p#footer-links a {color:#dedede;}
+#footer-area a {color:#dedede; text-decoration:underline}
+#footer-area a {color:#ffffff; text-decoration:underline}
+p#footer-links, p#footer-links a {color:#dedede;text-decoration:none}
 p#footer-links a:hover {text-decoration: underline}
+
+figcaption {font-size:80%;text-align:center}
+
+//Blockquotes
+blockquote.blockquote {
+    padding: 15px 20px 15px 30px;
+    margin: 20px 30px 20px 30px;
+    background-color: #fafafa;
+    border-left: 3px solid $uta-darkblue;
+}
+blockquote.blockquote .blockquote-footer {text-align:right;color:$uta-darkblue}
+
+//Buttons
+.btn {margin-bottom:15px}
