@@ -26,7 +26,7 @@ The following variables are optional for the current page.
 include "./_includes/00-top.php";
 include "./_includes/01-navigation.php";
 ?>
-<div class="container" id="maincontent">
+<div class="container" id="maincontent"><!-- Main Content Container -->
 <?php
 /*************************************************************
  *************************************************************
@@ -54,6 +54,8 @@ include "./_includes/01-navigation.php";
             <li>Duis gravida mauris nec nulla mollis, ac ornare quam pharetra.</li>
             <li>Curabitur interdum nibh in mi hendrerit, ac varius sem dignissim.</li>
         </ul>
+        <p>Now is the time for all good men to come to the aid of their country. Act only according to that maxim whereby you can, at the same time, 
+            will that it should become a universal law.</p>
 
         <h2>Table</h2>
         <table class="table table-hover table-sm">
@@ -88,6 +90,31 @@ include "./_includes/01-navigation.php";
         </table>
 
         <h2>Other Elements</h2>
+        <h3>Lists</h3>
+        <h4>Unordered</h4>
+        <ul>
+            <li>Foghorn Leghorn</li>
+            <li>Chicken Little</li>
+            <li>Robin Hood Chickens &amp; Roosters
+                <ul>
+                    <li>Alan-a-dale</li>
+                    <li>Lady Kluck</li>
+                </ul>
+            </li>
+            <li>Rocky</li>
+        </ul>
+        <h4>Ordered</h4>
+        <ol>
+            <li>Bullitt</li>
+            <li>The French Connection</li>
+            <li>Cannonball Run
+                <ul>
+                    <li>Cannonball Run</li>
+                    <li>Cannonball Run 2</li>
+                </ul>
+            </li>
+            <li>Death Proof</li>
+        </ol>
         <h3>Blockquote</h3>
         <blockquote class="blockquote">
             <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
@@ -139,6 +166,92 @@ include "./_includes/01-navigation.php";
         A simple dark alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
         </div>
 
+        <h3>Cards</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 16rem;">
+                    <img class="card-img-top" src="http://via.placeholder.com/286x180" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card One title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 16rem;">
+                    <img class="card-img-top" src="http://via.placeholder.com/286x180" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Two title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 16rem;">
+                    <img class="card-img-top" src="http://via.placeholder.com/286x180" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Three title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <h3>Preformatted</h3>
+<pre>
+ _  _  ____  __     ____  __ _   ___  __  __ _  ____  ____  ____  __  __ _   ___ 
+/ )( \(_  _)/ _\   (  __)(  ( \ / __)(  )(  ( \(  __)(  __)(  _ \(  )(  ( \ / __)
+) \/ (  )( /    \   ) _) /    /( (_ \ )( /    / ) _)  ) _)  )   / )( /    /( (_ \
+\____/ (__)\_/\_/  (____)\_)__) \___/(__)\_)__)(____)(____)(__\_)(__)\_)__) \___/             
+</pre>
+
+<h1>Heading One</h1>
+<h2>Heading Two</h2>
+<h3>Heading Three</h3>
+<h4>Heading Four</h4>
+<h5>Heading Five</h5>
+<h6>Heading Six</h6>
+<hr>
+<h3>
+Fancy display heading
+<small class="text-muted">With faded secondary text</small>
+</h3>
+<hr>
+<h1 class="display-1">Display 1</h1>
+<h1 class="display-2">Display 2</h1>
+<h1 class="display-3">Display 3</h1>
+<h1 class="display-4">Display 4</h1>
+<hr>
+
+
     </div><!--/Main content-->
 <?php
 /*************************************************************
@@ -155,12 +268,6 @@ include "./_includes/01-navigation.php";
     </div><!--/Sidebar-->
 </div><!--/Main row-->
 
-
-
-
-
-
-
 <?php
 /*************************************************************
  *************************************************************
@@ -168,6 +275,6 @@ include "./_includes/01-navigation.php";
  *************************************************************
  *************************************************************/
 ?>
-</div>
+</div><!-- /Main Content Container -->
 <?php include "./_includes/98-footer.php"; ?>
 <?php include "./_includes/99-bottom.php"; ?>
