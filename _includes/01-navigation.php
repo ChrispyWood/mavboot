@@ -1,4 +1,5 @@
-
+if (!isset($parentsite)) $parentsite = "College of Engineering";
+if (!isset($parent_site_url)) $parent_site_url = "https://www.uta.edu/academics/schools-colleges/engineering";
 
 <!-- Skip to content link for screen readers only -->
 <a class="skippy sr-only sr-only-focusable" href="#maincontent">
@@ -14,8 +15,8 @@
         </a>
         <span id="site-title" class="my-2 mx-3 mr-md-auto h2"><?php echo $sitename;?></span>
         <div class="my-2 my-md-0 mr-md-3">
-            <a class="p-2 text-light d-none d-lg-block" href="https://www.uta.edu/academics/schools-colleges/engineering">
-                College of Engineering
+            <a class="p-2 text-light d-none d-lg-block" href="<?php echo $parent_site_url;?>">
+                <?php echo $parentsite;?>
             </a>
             <button class="navbar-toggler ml-auto d-block d-lg-none" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
