@@ -1,7 +1,9 @@
 <?php
 /********************************************************
-MAVBOOT - UTA Themed Bootstrap Framework - version 200701
+MAVBOOT - UTA Themed Bootstrap Framework - version 200707
 This is the php version.
+index.php - This is a page main file.
+See getbootstrap.com for Bootstrap documentation
 *********************************************************/
 
 /********************************************************
@@ -16,12 +18,12 @@ $pagedescription = "The SR Lab takes samples and researches them.";  // Descript
 /********************************************************
 The following variables are optional for the current page.
 *********************************************************/
-//$page_scripts_css = ""; //Contents of this variable will be inserted in the head of the page just before head end tag.
 //$og_title = ""; //Title for facebook and other social media
 //$og_description = ""; //Description for facebook and other social media
 //$og_sitename = ""; //Sitename for facebook and other social media
 //$canonical_url = ""; //Canonical URL
 //$subpage_depth = ""; //Add '../' for each level deep in nav structure (e.g. localhost/beep/two needs '../../')
+//$page_scripts_css = ""; //Contents of this variable will be inserted in the head of the page just before head end tag.
 
 include "./_includes/00-top.php";
 include "./_includes/01-navigation.php";

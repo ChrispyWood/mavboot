@@ -1,3 +1,11 @@
+<?php
+/********************************************************
+MAVBOOT - UTA Themed Bootstrap Framework
+98-footer.php
+This page builds the page footer.
+Remember that .sr-only means screen reader only.
+*********************************************************/
+?>
 <div class='container-fluid mb-0 pb-1' id='footer-area'>
     <footer>
         <div class='container'>

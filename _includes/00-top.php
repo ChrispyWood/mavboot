@@ -1,13 +1,12 @@
 <?php
 /********************************************************
-MAVBOOT - UTA Themed Bootstrap Framework - version 200701
+MAVBOOT - UTA Themed Bootstrap Framework
 00-top.php
 DO NOT EDIT
 This page builds most of the top of the page.
 *********************************************************/
 
 // Assigning Variables if they are missing.
-
 if (!isset($sitename)) $sitename = "The University of Texas at Arlington";
 if (!isset($pagename)) $pagename = "College of Engineering Webpage";
 if (!isset($pagedescription)) $pagedescription = "The University of Texas at Arlington's College of Engineering is the most comprehensive engineering program in North Texas.";
@@ -16,12 +15,13 @@ if (!isset($og_description)) $og_description = $pagedescription;
 if (!isset($og_sitename)) $og_sitename = $sitename;
 if (!isset($subpage_depth)) $subpage_depth = "./";
 
-
 // Build a URL for default og_url
 if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') $url = "https://";   
 else $url = "http://";   
-// Append the host(domain name, ip) to the URL.   
+
+    // Append the host(domain name, ip) to the URL.   
 $url.= $_SERVER['HTTP_HOST'];   
+
 // Append the requested resource location to the URL   
 $url.= $_SERVER['REQUEST_URI'];  
 if (!isset($og_url)) $og_url = $url;

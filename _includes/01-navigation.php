@@ -1,5 +1,17 @@
+<?php
+/********************************************************
+MAVBOOT - UTA Themed Bootstrap Framework
+01-navigation.php
+This page builds the main navigation. Only the site 
+navigation menu at the bottom should be edited.
+See getbootstrap.com
+*********************************************************/
+
+// If these variables are missing, they get default values.
+if (!isset($parentsite)) $$sitename = "A College of Engineering Webpage";
 if (!isset($parentsite)) $parentsite = "College of Engineering";
 if (!isset($parent_site_url)) $parent_site_url = "https://www.uta.edu/academics/schools-colleges/engineering";
+?>
 
 <!-- Skip to content link for screen readers only -->
 <a class="skippy sr-only sr-only-focusable" href="#maincontent">
@@ -25,6 +37,11 @@ if (!isset($parent_site_url)) $parent_site_url = "https://www.uta.edu/academics/
     </div>
 </nav>
 
+<?php
+/**********************************************
+ * Edit the navigation menu below.
+ **********************************************/
+?>
 <!-- Site Navigation Menu -->
 <nav title="Site Navigation" id="sitenav" class="navbar navbar-expand-lg navbar-light bg-white mb-4 border-bottom p-0">
     <div class="container">
@@ -48,4 +65,3 @@ if (!isset($parent_site_url)) $parent_site_url = "https://www.uta.edu/academics/
         </div>
     </div>
 </nav>
-

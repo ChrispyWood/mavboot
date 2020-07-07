@@ -1,3 +1,12 @@
+<?php
+/********************************************************
+MAVBOOT - UTA Themed Bootstrap Framework
+10-sidebar.php
+This page builds the sidebar.  This is all contained in
+one <div> tag.  The first heading should be h2, use classes
+to change look (e.g. <h2 class='h4').
+*********************************************************/
+?>
             <figure>
                 <img src="./_images/uta/ERB.jpg" alt="Students enter the Engineering Research Building at UTA" class="img-fluid" />
                 <figcaption>
