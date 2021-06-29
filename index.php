@@ -1547,6 +1547,7 @@ include "./_includes/01-navigation.php";
     <article class="my-3" id="popovers">
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
        <hr class='my-4'><h3>Popovers</h3>
+       <div class='alert alert-info'>NOTICE: These will only work if you initialize them.  See the documentation.</div>
         <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.0/components/popovers/">Documentation</a><hr class='my-4'>
       </div>
 
@@ -1736,7 +1737,8 @@ include "./_includes/01-navigation.php";
     </article>
     <article class="mt-3 mb-5 pb-5" id="tooltips">
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
-       <hr class='my-4'><h3>Tooltips</h3>
+        <hr class='my-4'><h3>Tooltips</h3>
+        <div class='alert alert-info'>NOTICE: These will only work if you initialize them.  See the documentation.</div>
         <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.0/components/tooltips/">Documentation</a><hr class='my-4'>
       </div>
 

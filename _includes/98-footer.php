@@ -28,7 +28,7 @@ Remember that .sr-only means screen reader only.
             <a href="https://accessibility.uta.edu/">Accessibility</a> |
             <a href="https://www.uta.edu/site-policies">Site Policies</a><br />
             <a href="https://www.uta.edu">&copy; <?php echo date("Y"); ?> The University of Texas at Arlington</a><br />
-            <span class='small'>Updated/reviewed on June 7, 2021</span>
+            <span class='small'>Updated/reviewed on June 29, 2021</span>
           </p>
         </div>
       </div>
