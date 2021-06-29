@@ -182,7 +182,7 @@ include "./_includes/01-navigation.php";
 
 
     <section id="content">
-    <h1 class="pb-2 pb-xl-3">More Examples of Bootstrap Components</h2>
+    <h2 class="pb-2 pb-xl-3">More Examples of Bootstrap Components</h2>
 
 
     <hr class='mt-2'>
@@ -1423,10 +1423,10 @@ include "./_includes/01-navigation.php";
                   <a class="nav-link" href="#">Link</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarHWDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Dropdown
                   </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <ul class="dropdown-menu" aria-labelledby="navbarHWDropdown">
                     <li><a class="dropdown-item" href="#">Action</a></li>
                     <li><a class="dropdown-item" href="#">Another action</a></li>
                     <li><hr class="dropdown-divider"></li>

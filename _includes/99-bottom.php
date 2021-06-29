@@ -12,6 +12,3 @@ See getbootstrap.com
 
 </body>
 </html>
-
-</body>
-</html>
