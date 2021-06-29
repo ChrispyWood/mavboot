@@ -1,6 +1,6 @@
 # mavboot
 Bootstrap Themed for UTA College of Engineering 
-Started June 29, 2021
+Updated June 29, 2021
 
 Please report any issues or errors.
 
