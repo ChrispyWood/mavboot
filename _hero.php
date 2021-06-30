@@ -27,7 +27,7 @@ The following variables are optional for the current page.
 
 include "_includes/00-top.php"; // page top
 include "_includes/01-utanavigation.php"; // UTA Global Navigation
-//include "_includes/_hero.php"; //comment to insert the hero section.
+include "_includes/_hero.php"; //comment to insert the hero section.
 include "_includes/02-sitenavigation.php"; // This site Navigation
 
 ?>

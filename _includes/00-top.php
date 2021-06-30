@@ -6,7 +6,11 @@ DO NOT EDIT
 This page builds most of the top of the page.
 *********************************************************/
 
+
+
 // Assigning Variables if they are missing.
+if (!isset($parentsite)) $parentsite = "College of Engineering";
+if (!isset($parent_site_url)) $parent_site_url = "https://www.uta.edu/academics/schools-colleges/engineering";
 if (!isset($sitename)) $sitename = "The University of Texas at Arlington";
 if (!isset($pagename)) $pagename = "College of Engineering Webpage";
 if (!isset($pagedescription)) $pagedescription = "The University of Texas at Arlington's College of Engineering is the most comprehensive engineering program in North Texas.";

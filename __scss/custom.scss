@@ -1610,6 +1610,31 @@ blockquote.blockquote span.blockquote-footer {text-align:right;color:$uta-darkbl
 //Buttons and cards
 .btn, .card {margin-bottom:15px}
 
+// Homepage hero
+#home-hero {
+  background-image: url(../_images/big-data-graphic.png);
+  background-size:cover;
+  background-attachment: local;
+  background-position:top;
+  color:white;
+  padding-top:40px;
+  padding-bottom:80px;
+  }
+
+#home-hero .hero-text { 
+  max-width:760px; 
+  padding:15px 25px 15px 25px;
+  background-color:#00447cd0;
+}
+#home-hero .display-1 { color:white; text-shadow:2px 2px 2px #000; }
+#home-hero .lead { color:white; text-shadow:1px 1px 2px #000; font-size: 1.75rem}
+
+@media screen and (max-width: 920px) {
+  #home-hero .display-1 {padding-top:5px; padding-bottom:30px;}
+  #home-hero { min-height:100px; }
+}
+
+
 //Accessibility fixes
 .btn-outline-warning {color:#000} /* This is for contrast problems */
 .carousel-item h1, .carousel-item h2,
