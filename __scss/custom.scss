@@ -532,7 +532,7 @@ $initialism-font-size:        $small-font-size !default;
 
 $blockquote-margin-y:         $spacer !default;
 $blockquote-font-size:        $font-size-base * 1.25 !default;
-$blockquote-footer-color:     $gray-600 !default;
+$blockquote-footer-color:     $primary !default;
 $blockquote-footer-font-size: $small-font-size !default;
 
 $hr-margin-y:                 $spacer !default;
@@ -1488,7 +1488,7 @@ $offcanvas-box-shadow:              $modal-content-box-shadow-xs !default;
 // Code
 
 $code-font-size:                    $small-font-size !default;
-$code-color:                        $pink !default;
+$code-color:                        $primary !default;
 
 $kbd-padding-y:                     .2rem !default;
 $kbd-padding-x:                     .4rem !default;
@@ -1538,6 +1538,7 @@ div#global-navigation {border-top: 6px solid #f58025; background-color:$uta-dark
 .alert-light {border-color:black}
 .alert-dark {border-color:black}
 .alert a {text-decoration:underline}
+
 
 .alert:before {
     font-family: Font Awesome\ 5 Free;
@@ -1608,3 +1609,9 @@ blockquote.blockquote span.blockquote-footer {text-align:right;color:$uta-darkbl
 
 //Buttons and cards
 .btn, .card {margin-bottom:15px}
+
+//Accessibility fixes
+.btn-outline-warning {color:#000} /* This is for contrast problems */
+.carousel-item h1, .carousel-item h2,
+.carousel-item h3, .carousel-item h4,
+.carousel-item h5, .carousel-item h6 {color:white} /* This is for contrast problems */
