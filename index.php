@@ -32,7 +32,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
 
 ?>
 <!-- Wrapper for all the page content -->
-<div class="container" id="maincontent"><!-- Main Content Container -->
+<div class="container mt-4" id="maincontent"><!-- Main Content Container -->
 
 <?php
 /*************************************************************

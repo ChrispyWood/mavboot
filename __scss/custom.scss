@@ -1621,6 +1621,8 @@ blockquote.blockquote span.blockquote-footer {text-align:right;color:$uta-darkbl
   padding-bottom:80px;
   }
 
+
+// Hero Section  
 #home-hero .hero-text { 
   max-width:760px; 
   padding:15px 25px 15px 25px;
@@ -1634,9 +1636,37 @@ blockquote.blockquote span.blockquote-footer {text-align:right;color:$uta-darkbl
   #home-hero { min-height:100px; }
 }
 
+// Divided Sections image and text
+
+.split-section {
+  padding-top:80px;
+  padding-bottom:80px;
+}
+.split-section {
+  font-size: 1.3rem;
+}
+.white-section {
+  background-color:$white
+}
+.blue-section {
+  background-color:$uta-darkblue;
+  color: $white;
+}
+.orange-section {
+  background-color:$uta-darkorange;
+  color: $white;
+}
+.orange-section h1, .orange-section h2, .orange-section h3,
+.orange-section h4, .orange-section h5, .blue-section h1, .blue-section h2, .blue-section h3,
+.blue-section h4, .blue-section h5 {color:white}
 
 //Accessibility fixes
 .btn-outline-warning {color:#000} /* This is for contrast problems */
 .carousel-item h1, .carousel-item h2,
 .carousel-item h3, .carousel-item h4,
 .carousel-item h5, .carousel-item h6 {color:white} /* This is for contrast problems */
+
+/*
+* sass --watch __scss/custom.scss:_css/style.css --style compressed
+* sass __scss/custom.scss:_css/style.css --style compressed
+*/
