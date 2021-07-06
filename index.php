@@ -13,7 +13,7 @@ $sitename = "Lorem Ipsum Lab";  // Name of this webiste
 $parentsite = "College of Engineering";  // College or department to which the lab belongs
 $parent_site_url = "https://www.uta.edu/academics/schools-colleges/engineering";  // URL of the college or department homepage
 $pagename = "Lorem Ipsum Lab Home";  // Title of this page (appears in tab of web browser)
-$pagedescription = "The SR Lab takes samples and researches them.";  // Description of this page (appears in search engines)
+$pagedescription = "The Lorem Ipsu Lab takes samples and researches them.";  // Description of this page (appears in search engines)
 
 /********************************************************
 The following variables are optional for the current page.
@@ -71,7 +71,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
     <p>Now is the time for all good men to come to the aid of their country. Act only according to that maxim whereby you can, at the same time, 
     will that it should become a universal law.</p>
 
-    <h2 id="#tables">Table</h2>
+    <h2>Table</h2>
 
     <table class="table table-hover table-sm" id="Example_Table">
     <caption class='sr-only'>A table of fake data to illustrate the proper way to mark up a table.</caption>
