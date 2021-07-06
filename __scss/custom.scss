@@ -1571,9 +1571,21 @@ div#global-navigation {border-top: 6px solid #f58025; background-color:$uta-dark
     padding: 20px 0 40px 0;
     min-height:200px;
 }
+
+// Dark backgrounds need white tax
 #footer-area h1, #footer-area h2, 
 #footer-area h3, #footer-area h4, 
-#footer-area h5, #footer-area h6 {
+#footer-area h5, #footer-area h6,
+.bg-dark h1, .bg-dark h2, 
+.bg-dark h3, .bg-dark h4, 
+.bg-dark h5, .bg-dark h6,
+.bg-primary h1, .bg-primary h2, 
+.bg-primary h3, .bg-primary h4, 
+.bg-primary h5, .bg-primary h6, 
+.bg-primary p, .bg-primary ul,
+.bg-primary ol, .bg-dark p,
+.bg-dark ul, .bg-dark ol
+ {
     color:white;
 }
 #footer-area .social-icons {color:#dedede;font-size:2em}

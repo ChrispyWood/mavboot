@@ -71,7 +71,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
     <p>Now is the time for all good men to come to the aid of their country. Act only according to that maxim whereby you can, at the same time, 
     will that it should become a universal law.</p>
 
-    <h2>Table</h2>
+    <h2 id="#tables">Table</h2>
 
     <table class="table table-hover table-sm" id="Example_Table">
     <caption class='sr-only'>A table of fake data to illustrate the proper way to mark up a table.</caption>

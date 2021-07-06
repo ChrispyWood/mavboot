@@ -34,13 +34,15 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
 <!-- Wrapper for all the page content -->
 <div id="maincontent"><!-- Main Content Container -->
   <main>
+
+    <!-- Split section on white background -->
     <div class="split-section white-section">
       <div class='container'>
         <div class="row justify-content-around">
-          <div class="col-md-5">
-            <img src="_images/image_1.jpg" class="img-fluid" alt="Just an Image"/>
+          <div class="col-md-5 pb-4">
+            <img src="_images/image_5.jpg" class="img-fluid" alt="Just an Image"/>
           </div>
-          <div class="col-md-6">
+          <div class="offset-md-1 col-md-6">
             <h3 class='h2'>Duis et hendrerit ipsum.</h3>
             <h4>Duis scelerisque eget dolor a rhoncus eget ultrices ipsum.</h4>
             <p>Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus.</p>
@@ -49,55 +51,63 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
         </div>
       </div>
     </div>
+
+<!-- Split section on orange background -->
     <div class="split-section orange-section">
       <div class='container'>
         <div class="row justify-content-between">
-          <div class="col-md-5">
+          <div class="col-md-6 pb-4">
             <h3 class='h2'>Duis et hendrerit ipsum.</h3>
             <h4>Duis scelerisque eget dolor a rhoncus eget ultrices ipsum.</h4>
             <p>Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus.</p>
           </div>
-          <div class="col-md-4">
-            <img src="_images/image_2.jpg" class="rounded-circle img-fluid" alt="Just an Image"/>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="split-section white-section">
-      <div class='container'>
-        <div class="row justify-content-between">
-          <div class="col-md-5">
-            <img src="_images/image_3.jpg" class="rounded-circle img-fluid" alt="Just an Image"/>
-          </div>
-          <div class="col-md-5">
-            <h3 class='h2'>Duis et hendrerit ipsum.</h3>
-            <h4>Duis scelerisque eget dolor a rhoncus eget ultrices ipsum.</h4>
-            <p>Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="split-section blue-section">
-      <div class='container'>
-        <div class="row justify-content-between">
-          <div class="col-md-5">
-            <h3 class='h2'>Duis et hendrerit ipsum.</h3>
-            <h4>Duis scelerisque eget dolor a rhoncus eget ultrices ipsum.</h4>
-            <p>Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus.</p>
-          </div>
-          <div class="col-md-5">
+          <div class="offset-md-1 col-md-5">
             <img src="_images/image_5.jpg" class="img-fluid" alt="Just an Image"/>
           </div>
         </div>
       </div>
     </div>
+
+<!-- Split section on white background -->
     <div class="split-section white-section">
       <div class='container'>
         <div class="row justify-content-between">
-          <div class="col-md-3">
-            <img src="_images/image_4.jpg" class="img-fluid" alt="Some image"/>
+          <div class="col-md-5 pb-4">
+            <img src="_images/image_5.jpg" class="img-fluid" alt="Just an Image"/>
           </div>
-          <div class="col-md-7">
+          <div class="offset-md-1 col-md-5">
+            <h3 class='h2'>Duis et hendrerit ipsum.</h3>
+            <h4>Duis scelerisque eget dolor a rhoncus eget ultrices ipsum.</h4>
+            <p>Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Split section on blue background -->
+    <div class="split-section blue-section">
+      <div class='container'>
+        <div class="row justify-content-between">
+          <div class="col-md-6 pb-4">
+            <h3 class='h2'>Duis et hendrerit ipsum.</h3>
+            <h4>Duis scelerisque eget dolor a rhoncus eget ultrices ipsum.</h4>
+            <p>Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus.</p>
+          </div>
+          <div class="offset-md-1 col-md-5">
+            <img src="_images/image_5.jpg" class="img-fluid" alt="Just an Image"/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Split section on white background -->
+    <div class="split-section white-section">
+      <div class='container'>
+        <div class="row justify-content-between">
+          <div class="col-md-5 pb-4">
+            <img src="_images/image_5.jpg" class="img-fluid" alt="Some image"/>
+          </div>
+          <div class="offset-md-1 col-md-6">
             <h3 class='h2'>Duis et hendrerit ipsum.</h3>
             <h4>Duis scelerisque eget dolor a rhoncus eget ultrices ipsum.</h4>
             <p>Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus.</p>
