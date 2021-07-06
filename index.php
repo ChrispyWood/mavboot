@@ -50,6 +50,8 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
     <p class="lead">This template uses the Bootstrap framework. View the <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap 
     Documentation</a> to learn the many options for styling. Almost everything has a CSS class to render appropriately and attractively.</p>
 
+    <p class="lead">Links to download theme in php or html and to view on github can be found on the the <a href='https://resources.uta.edu/engineering/faculty-websites.php'>College of Engineering Resources page on faculty and lab sites.</a></p>
+
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel sem facilisis, suscipit dolor ac, volutpat nisi. In vitae tristique nisi. 
     Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi ut metus dictum neque lobortis maximus non id 
     dolor. Suspendisse a odio vitae justo volutpat blandit a in est. Morbi tincidunt sodales semper. Cras ut purus eu nibh scelerisque iaculis 

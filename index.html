@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -7,18 +8,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <title>Lorem Ipsum Lab Home</title>
-    <meta name="description" content="The SR Lab takes samples and researches them.">
+    <meta name="description" content="The Lorem Ipsu Lab takes samples and researches them.">
     
     <!-- Open Graph data: fallback for most social media service basic tags -->
     <meta property="og:title" content="Lorem Ipsum Lab Home" />
-    <meta property="og:url" content="https://uta.engineering/mavboot/" />
-    <meta property="og:description" content="The SR Lab takes samples and researches them." />
+    <meta property="og:url" content="https://localhost/mavboot/" />
+    <meta property="og:description" content="The Lorem Ipsu Lab takes samples and researches them." />
     <meta property="og:site_name" content="Lorem Ipsum Lab" />
 
     <!-- Twitter data -->
     <meta name="twitter:site" content="Lorem Ipsum Lab" />
     <meta name="twitter:text:title" content="Lorem Ipsum Lab Home" />
-    <meta name="twitter:description" content="The SR Lab takes samples and researches them." />
+    <meta name="twitter:description" content="The Lorem Ipsu Lab takes samples and researches them." />
 
     <!-- Icons -->
     <link href="./_icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
@@ -27,7 +28,7 @@
     <link href="./_icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
 
     <!-- Bootstrap & Fontawsome -->
-    <link rel="stylesheet" href="./_css/style.css?v=21299040">
+    <link rel="stylesheet" href="./_css/style.css?v=10152948">
     <link href="_css/all.min.css" rel="stylesheet"> <!--load fontawesome -->
 
     </head>
@@ -65,18 +66,31 @@
         <li class="nav-item">
           <a class="nav-link" href="./">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Sample Lab Page</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Some Features
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+            <li><a class="dropdown-item" href="#tables">Tables</a></li>
+            <li><a class="dropdown-item" href="#figures">Figures</a></li>
+            <li><a class="dropdown-item" href="#forms">Forms</a></li>
+            <li><a class="dropdown-item" href="#accordion">Accordion</a></li>
+            <li><a class="dropdown-item" href="#alerts">Alerts</a></li>
+            <li><a class="dropdown-item" href="#buttons">Buttons</a></li>
+            <li><a class="dropdown-item" href="#card">Card</a></li>
+            <li><a class="dropdown-item" href="#carousel">Carousel</a></li>
+          </ul>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Creative Possibilities
+            Layout Possibilities
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="_hero.php">Add a Hero Section</a></li>
             <li><a class="dropdown-item" href="_sections.php">Split Sections</a></li>
+            <li><a class="dropdown-item" href="_jumbotrons.php">Jumbotrons</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" target='blank' href="https://carida.uta.edu/">Theme in Use (carida.uta.edu)</a></li>
           </ul>
         </li>
       </ul>
@@ -1797,16 +1811,6 @@ efficitur convallis.</p>
 
 <!-- Bootstrap Bundle JS -->
 <script src="./_js/bootstrap.bundle.min.js"></script>
-<script>
-  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-return new bootstrap.Tooltip(tooltipTriggerEl)
-})
 
-var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-return new bootstrap.Popover(popoverTriggerEl)
-})
-</script>
 </body>
 </html>
