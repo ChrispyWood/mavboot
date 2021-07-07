@@ -2,7 +2,9 @@
  * custom.scss
  * Builds the bootstrap CSS
  *
- * Option A: Include all of Bootstrap
+ * Including all of Bootstrap
+ *
+ * Lines below are just for easy cut and paste 
  * sass --watch __scss/custom.scss:_css/style.css --style compressed
  * sass __scss/custom.scss:_css/style.css --style compressed
  *
@@ -1622,6 +1624,16 @@ blockquote.blockquote span.blockquote-footer {text-align:right;color:$uta-darkbl
 //Buttons and cards
 .btn, .card {margin-bottom:15px}
 
+
+//Back to Top Button
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+
 // Homepage hero
 #home-hero {
   background-image: url(../_images/big-data-graphic.png);
@@ -1679,6 +1691,7 @@ blockquote.blockquote span.blockquote-footer {text-align:right;color:$uta-darkbl
 .carousel-item h5, .carousel-item h6 {color:white} /* This is for contrast problems */
 
 /*
+* Lines below for easy cut and paste in the terminal
 * sass --watch __scss/custom.scss:_css/style.css --style compressed
 * sass __scss/custom.scss:_css/style.css --style compressed
 */

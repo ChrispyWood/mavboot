@@ -7,8 +7,8 @@ See getbootstrap.com
 *********************************************************/
 ?>
 
-<!-- Bootstrap Bundle JS -->
+<!-- Bootstrap Bundle JS and Mavboot JS -->
 <script src="./_js/bootstrap.bundle.min.js"></script>
-
+<script src="./_js/mavboot.js"></script>
 </body>
 </html>

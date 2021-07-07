@@ -50,3 +50,8 @@ See getbootstrap.com
     </div>
   </div>
 </nav>
+
+<!-- Back to top button -->
+<button type="button" class="btn btn-primary btn-floating " id="btn-back-to-top" title='Back to Top'>
+  <i class="fas fa-arrow-up"></i> &nbsp; Back to Top &nbsp; <i class="fas fa-arrow-up"></i>
+</button>
