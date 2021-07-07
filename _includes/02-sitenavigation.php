@@ -20,10 +20,10 @@ See getbootstrap.com
           <a class="nav-link" href="./">Home</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" id="mavnav2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Some Features
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+          <ul class="dropdown-menu" aria-labelledby="mavnav2">
             <li><a class="dropdown-item" href="#tables">Tables</a></li>
             <li><a class="dropdown-item" href="#figures">Figures</a></li>
             <li><a class="dropdown-item" href="#forms">Forms</a></li>
@@ -35,10 +35,10 @@ See getbootstrap.com
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" id="mavnav1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Layout Possibilities
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <ul class="dropdown-menu" aria-labelledby="mavnav1">
             <li><a class="dropdown-item" href="_hero.php">Add a Hero Section</a></li>
             <li><a class="dropdown-item" href="_sections.php">Split Sections</a></li>
             <li><a class="dropdown-item" href="_jumbotrons.php">Jumbotrons</a></li>
