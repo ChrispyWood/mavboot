@@ -42,6 +42,7 @@ See getbootstrap.com
             <li><a class="dropdown-item" href="_hero.php">Add a Hero Section</a></li>
             <li><a class="dropdown-item" href="_sections.php">Split Sections</a></li>
             <li><a class="dropdown-item" href="_jumbotrons.php">Jumbotrons</a></li>
+            <li><a class="dropdown-item" href="_plainjane.php">Plain Jane</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" target='blank' href="https://carida.uta.edu/">Theme in Use (carida.uta.edu)</a></li>
           </ul>
