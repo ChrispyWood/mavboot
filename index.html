@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,16 +9,20 @@
     <title>Lorem Ipsum Lab Home</title>
     <meta name="description" content="The Lorem Ipsu Lab takes samples and researches them.">
     
-    <!-- Open Graph data: fallback for most social media service basic tags -->
+    <!-- Open Graph data: fallback for most social media service basic tags 
+         ONLY UNCOMMENT IF YOU KNOW WHAT THIS IS AND WHAT YOU ARE DOING
     <meta property="og:title" content="Lorem Ipsum Lab Home" />
-    <meta property="og:url" content="https://localhost/mavboot/" />
+    <meta property="og:url" content="https://uta.engineering/mavboot/" />
     <meta property="og:description" content="The Lorem Ipsu Lab takes samples and researches them." />
     <meta property="og:site_name" content="Lorem Ipsum Lab" />
+    -->
 
-    <!-- Twitter data -->
+    <!-- Twitter data 
+         ONLY UNCOMMENT IF YOU KNOW WHAT THIS IS AND WHAT YOU ARE DOING
     <meta name="twitter:site" content="Lorem Ipsum Lab" />
     <meta name="twitter:text:title" content="Lorem Ipsum Lab Home" />
     <meta name="twitter:description" content="The Lorem Ipsu Lab takes samples and researches them." />
+    -->
 
     <!-- Icons -->
     <link href="./_icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
@@ -28,7 +31,7 @@
     <link href="./_icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
 
     <!-- Bootstrap & Fontawsome -->
-    <link rel="stylesheet" href="./_css/style.css?v=10152948">
+    <link rel="stylesheet" href="./_css/style.css">
     <link href="_css/all.min.css" rel="stylesheet"> <!--load fontawesome -->
 
     </head>
@@ -67,10 +70,10 @@
           <a class="nav-link" href="./">Home</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" id="mavnav2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Some Features
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+          <ul class="dropdown-menu" aria-labelledby="mavnav2">
             <li><a class="dropdown-item" href="#tables">Tables</a></li>
             <li><a class="dropdown-item" href="#figures">Figures</a></li>
             <li><a class="dropdown-item" href="#forms">Forms</a></li>
@@ -82,13 +85,14 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" id="mavnav1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Layout Possibilities
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <ul class="dropdown-menu" aria-labelledby="mavnav1">
             <li><a class="dropdown-item" href="_hero.php">Add a Hero Section</a></li>
             <li><a class="dropdown-item" href="_sections.php">Split Sections</a></li>
             <li><a class="dropdown-item" href="_jumbotrons.php">Jumbotrons</a></li>
+            <li><a class="dropdown-item" href="_plainjane.php">Plain Jane</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" target='blank' href="https://carida.uta.edu/">Theme in Use (carida.uta.edu)</a></li>
           </ul>
@@ -96,7 +100,12 @@
       </ul>
     </div>
   </div>
-</nav><!-- Wrapper for all the page content -->
+</nav>
+
+<!-- Back to top button -->
+<button type="button" class="btn btn-primary btn-floating " id="btn-back-to-top" title='Back to Top'>
+  <i class="fas fa-arrow-up"></i> &nbsp; Back to Top &nbsp; <i class="fas fa-arrow-up"></i>
+</button><!-- Wrapper for all the page content -->
 <div class="container mt-4" id="maincontent"><!-- Main Content Container -->
 
 <div class='row'><!--Main row-->
@@ -107,6 +116,8 @@
 
     <p class="lead">This template uses the Bootstrap framework. View the <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap 
     Documentation</a> to learn the many options for styling. Almost everything has a CSS class to render appropriately and attractively.</p>
+
+    <p class="lead">Links to download theme in php or html and to view on github can be found on the the <a href='https://resources.uta.edu/engineering/faculty-websites.php'>College of Engineering Resources page on faculty and lab sites.</a></p>
 
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel sem facilisis, suscipit dolor ac, volutpat nisi. In vitae tristique nisi. 
     Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi ut metus dictum neque lobortis maximus non id 
@@ -1801,7 +1812,7 @@ efficitur convallis.</p>
             <a href="https://accessibility.uta.edu/">Accessibility</a> |
             <a href="https://www.uta.edu/site-policies">Site Policies</a><br />
             <a href="https://www.uta.edu">&copy; 2021 The University of Texas at Arlington</a><br />
-            <span class='small'>Updated/reviewed on June 29, 2021</span>
+            <span class='small'>Updated/reviewed on July 6, 2021</span>
           </p>
         </div>
       </div>
@@ -1809,8 +1820,8 @@ efficitur convallis.</p>
   </footer>
 </div>
 
-<!-- Bootstrap Bundle JS -->
+<!-- Bootstrap Bundle JS and Mavboot JS -->
 <script src="./_js/bootstrap.bundle.min.js"></script>
-
+<script src="./_js/mavboot.js"></script>
 </body>
 </html>
