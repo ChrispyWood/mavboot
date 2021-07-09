@@ -8,7 +8,7 @@ See getbootstrap.com
 ?>
 
 <!-- Bootstrap Bundle JS and Mavboot JS -->
-<script src="./_js/bootstrap.bundle.min.js"></script>
-<script src="./_js/mavboot.js"></script>
+<script src="<?php echo $subpage_depth;?>_js/bootstrap.bundle.min.js"></script>
+<script src="<?php echo $subpage_depth;?>_js/mavboot.js"></script>
 </body>
 </html>

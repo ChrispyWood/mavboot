@@ -62,7 +62,7 @@ if (!isset($og_url)) $og_url = $url;
 
     <!-- Bootstrap & Fontawsome -->
     <link rel="stylesheet" href="<?php echo $subpage_depth;?>_css/style.css?v=<?php echo rand(0,30000000);?>">
-    <link href="_css/all.min.css" rel="stylesheet"> <!--load fontawesome -->
+    <link href="<?php echo $subpage_depth;?>_css/all.min.css" rel="stylesheet"> <!--load fontawesome -->
 
     <?php if (isset($page_scripts_css)) echo $page_scripts_css; ?>
 </head>

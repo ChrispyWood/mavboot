@@ -17,7 +17,7 @@ See getbootstrap.com
 <nav title="Banner and Global UTA Navigation" >
   <div id="global-navigation" class="d-flex flex-column flex-md-row align-items-center pt-1 px-md-4 navbar-dark" >
     <a class="navbar-brand" href="https://www.uta.edu/">
-      <img src="./_images/uta/uta-logo.png" id="uta-logo" alt="The University of Texas at Arlington logo">
+      <img src="<?php echo $subpage_depth;?>_images/uta/uta-logo.png" id="uta-logo" alt="The University of Texas at Arlington logo">
       <span class='visually-hidden'>The University of Texas at Arlington</span>
     </a>
     <span id="site-title" class="my-2 mx-3 mr-md-auto h2"><?php echo $sitename;?></span>

@@ -17,21 +17,21 @@ See getbootstrap.com
     <div class="collapse navbar-collapse" id="theNavbar">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="./">Home</a>
+          <a class="nav-link" href="<?php echo $subpage_depth;?>">Home</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="mavnav2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Some Features
           </a>
           <ul class="dropdown-menu" aria-labelledby="mavnav2">
-            <li><a class="dropdown-item" href="#tables">Tables</a></li>
-            <li><a class="dropdown-item" href="#figures">Figures</a></li>
-            <li><a class="dropdown-item" href="#forms">Forms</a></li>
-            <li><a class="dropdown-item" href="#accordion">Accordion</a></li>
-            <li><a class="dropdown-item" href="#alerts">Alerts</a></li>
-            <li><a class="dropdown-item" href="#buttons">Buttons</a></li>
-            <li><a class="dropdown-item" href="#card">Card</a></li>
-            <li><a class="dropdown-item" href="#carousel">Carousel</a></li>
+            <li><a class="dropdown-item" href="/mavboot/#tables">Tables</a></li>
+            <li><a class="dropdown-item" href="/mavboot/#figures">Figures</a></li>
+            <li><a class="dropdown-item" href="/mavboot/#forms">Forms</a></li>
+            <li><a class="dropdown-item" href="/mavboot/#accordion">Accordion</a></li>
+            <li><a class="dropdown-item" href="/mavboot/#alerts">Alerts</a></li>
+            <li><a class="dropdown-item" href="/mavboot/#buttons">Buttons</a></li>
+            <li><a class="dropdown-item" href="/mavboot/#card">Card</a></li>
+            <li><a class="dropdown-item" href="/mavboot/#carousel">Carousel</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -39,10 +39,10 @@ See getbootstrap.com
             Layout Possibilities
           </a>
           <ul class="dropdown-menu" aria-labelledby="mavnav1">
-            <li><a class="dropdown-item" href="_hero.php">Add a Hero Section</a></li>
-            <li><a class="dropdown-item" href="_sections.php">Split Sections</a></li>
-            <li><a class="dropdown-item" href="_jumbotrons.php">Jumbotrons</a></li>
-            <li><a class="dropdown-item" href="_plainjane.php">Plain Jane</a></li>
+            <li><a class="dropdown-item" href="<?php echo $subpage_depth;?>_hero.php">Add a Hero Section</a></li>
+            <li><a class="dropdown-item" href="<?php echo $subpage_depth;?>_sections.php">Split Sections</a></li>
+            <li><a class="dropdown-item" href="<?php echo $subpage_depth;?>_jumbotrons.php">Jumbotrons</a></li>
+            <li><a class="dropdown-item" href="<?php echo $subpage_depth;?>_plainjane.php">Plain Jane</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" target='blank' href="https://carida.uta.edu/">Theme in Use (carida.uta.edu)</a></li>
           </ul>
