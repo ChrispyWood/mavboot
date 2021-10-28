@@ -9,9 +9,11 @@ See getbootstrap.com
 ?>
 
 <!-- Skip to content link for screen readers only -->
+<nav id='skipto-links'>
 <a class="skippy visually-hidden-focusable" href="#maincontent">
     <span class="skippy-text">Skip to main content.</span>
 </a>
+</nav>
 
 <!-- Global Navigation Banner and Links -->
 <nav title="Banner and Global UTA Navigation" >
