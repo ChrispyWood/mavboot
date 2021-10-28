@@ -53,7 +53,7 @@ See getbootstrap.com
 </nav>
 
 <!-- Back to top button -->
-<nav id='back-to-top-button'>
+<nav id='back-to-top-button' title="back to top">
 <button type="button" class="btn btn-primary btn-floating " id="btn-back-to-top" title='Back to Top'>
   <i class="fas fa-arrow-up"></i> &nbsp; Back to Top &nbsp; <i class="fas fa-arrow-up"></i>
 </button>

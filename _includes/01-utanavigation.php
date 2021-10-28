@@ -9,7 +9,7 @@ See getbootstrap.com
 ?>
 
 <!-- Skip to content link for screen readers only -->
-<nav id='skipto-links'>
+<nav id='skipto-links' title='skip to content'>
 <a class="skippy visually-hidden-focusable" href="#maincontent">
     <span class="skippy-text">Skip to main content.</span>
 </a>
