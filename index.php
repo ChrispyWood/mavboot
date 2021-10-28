@@ -925,7 +925,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
               <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"/><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
 
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h4 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
@@ -937,7 +937,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
                 Featured
               </div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h4 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
@@ -949,7 +949,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
           <div class="col">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h4 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
               <ul class="list-group list-group-flush">
@@ -972,7 +972,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h4 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                   </div>
@@ -1003,7 +1003,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
               <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg>
 
               <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
+                <h4>First slide label</h5>
                 <p>Some representative placeholder content for the first slide.</p>
               </div>
             </div>
@@ -1011,7 +1011,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
               <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"/><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg>
 
               <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
+                <h4>Second slide label</h5>
                 <p>Some representative placeholder content for the second slide.</p>
               </div>
             </div>
@@ -1019,7 +1019,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
               <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"/><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
 
               <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
+                <h4>Third slide label</h5>
                 <p>Some representative placeholder content for the third slide.</p>
               </div>
             </div>
