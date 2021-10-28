@@ -43,8 +43,8 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
             <img src="_images/image_5.jpg" class="img-fluid" alt="Just an Image"/>
           </div>
           <div class="offset-md-1 col-md-6">
-            <h3 class='h2'>Duis et hendrerit ipsum.</h3>
-            <h4>Duis scelerisque eget dolor a rhoncus eget ultrices ipsum.</h4>
+            <h1 class='h2'>Duis et hendrerit ipsum.</h1>
+            <h2 class='h4'>Duis scelerisque eget dolor a rhoncus eget ultrices ipsum.</h2>
             <p>Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus.</p>
             <p><a class='btn btn-primary' href='#'>Go to Another Site</a> &nbsp; <a class='btn btn-outline-primary' href='#'>Go to a Better Site</a></p>
           </div>
@@ -57,8 +57,8 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
       <div class='container'>
         <div class="row justify-content-between">
           <div class="col-md-6 pb-4">
-            <h3 class='h2'>Duis et hendrerit ipsum.</h3>
-            <h4>Duis scelerisque eget dolor a rhoncus eget ultrices ipsum.</h4>
+            <h2>Duis et hendrerit ipsum.</h2>
+            <h3 class='h4'>Duis scelerisque eget dolor a rhoncus eget ultrices ipsum.</h3>
             <p>Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus.</p>
           </div>
           <div class="offset-md-1 col-md-5">
@@ -76,8 +76,8 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
             <img src="_images/image_5.jpg" class="img-fluid" alt="Just an Image"/>
           </div>
           <div class="offset-md-1 col-md-5">
-            <h3 class='h2'>Duis et hendrerit ipsum.</h3>
-            <h4>Duis scelerisque eget dolor a rhoncus eget ultrices ipsum.</h4>
+            <h2>Duis et hendrerit ipsum.</h2>
+            <h3 class='h4'>Duis scelerisque eget dolor a rhoncus eget ultrices ipsum.</h3>
             <p>Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus.</p>
           </div>
         </div>
@@ -89,8 +89,8 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
       <div class='container'>
         <div class="row justify-content-between">
           <div class="col-md-6 pb-4">
-            <h3 class='h2'>Duis et hendrerit ipsum.</h3>
-            <h4>Duis scelerisque eget dolor a rhoncus eget ultrices ipsum.</h4>
+            <h2>Duis et hendrerit ipsum.</h2>
+            <h3 class='h4'>Duis scelerisque eget dolor a rhoncus eget ultrices ipsum.</h3>
             <p>Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus.</p>
           </div>
           <div class="offset-md-1 col-md-5">
@@ -108,8 +108,8 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
             <img src="_images/image_5.jpg" class="img-fluid" alt="Some image"/>
           </div>
           <div class="offset-md-1 col-md-6">
-            <h3 class='h2'>Duis et hendrerit ipsum.</h3>
-            <h4>Duis scelerisque eget dolor a rhoncus eget ultrices ipsum.</h4>
+            <h2>Duis et hendrerit ipsum.</h2>
+            <h3 class='h4'>Duis scelerisque eget dolor a rhoncus eget ultrices ipsum.</h3>
             <p>Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus.</p>
           </div>
         </div>
