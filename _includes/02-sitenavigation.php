@@ -31,7 +31,6 @@ See getbootstrap.com
             <li><a class="dropdown-item" href="/mavboot/#alerts">Alerts</a></li>
             <li><a class="dropdown-item" href="/mavboot/#buttons">Buttons</a></li>
             <li><a class="dropdown-item" href="/mavboot/#card">Card</a></li>
-            <li><a class="dropdown-item" href="/mavboot/#carousel">Carousel</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
