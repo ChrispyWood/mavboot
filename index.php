@@ -965,7 +965,6 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
               <div class="row g-0">
                 <div class="col-md-4">
                   <svg class="bd-placeholder-img" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"/><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text></svg>
-
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
@@ -1504,39 +1503,6 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
         <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
           Popover on start
         </button>
-        </div>
-      </div>
-    </article>
-    <article class="my-3" id="progress">
-      <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
-       <hr class='my-4'><h3>Progress</h3>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.0/components/progress/">Documentation</a><hr class='my-4'>
-      </div>
-
-      <div>
-        <div class="bd-example">
-        <div class="progress mb-3">
-          <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
-        </div>
-        <div class="progress mb-3">
-          <div class="progress-bar bg-success w-25" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-        </div>
-        <div class="progress mb-3">
-          <div class="progress-bar bg-info w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
-        </div>
-        <div class="progress mb-3">
-          <div class="progress-bar bg-warning text-dark w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
-        </div>
-        <div class="progress">
-          <div class="progress-bar bg-danger w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-        </div>
-        </div>
-
-        <div class="bd-example">
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-          <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
         </div>
       </div>
     </article>
