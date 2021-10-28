@@ -1605,9 +1605,10 @@ p#footer-links {
     #footer-uta-name {float:left;padding-bottom:0;padding-top:15px}
 }
 
-#footer-area a {color:#dedede; text-decoration:underline}
-#footer-area a {color:#ffffff; text-decoration:underline}
-p#footer-links, p#footer-links a {color:#dedede;text-decoration:none}
+#footer-area a {color:#dedede; text-decoration:underline;text-decoration-color: #dedede;}
+#footer-area a {color:#ffffff; text-decoration:underline;text-decoration-color: #dedede;}
+p#footer-links {color:#dedede;}
+p#footer-links a {color:#dedede;text-decoration:underline;text-decoration-color: #999999;}
 p#footer-links a:hover {text-decoration: underline}
 
 figcaption {font-size:80%;text-align:center}
