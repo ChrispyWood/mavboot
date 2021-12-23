@@ -16,6 +16,7 @@ if (!isset($pagename)) $pagename = "College of Engineering Webpage";
 if (!isset($pagedescription)) $pagedescription = "The University of Texas at Arlington's College of Engineering is the most comprehensive engineering program in North Texas.";
 if (!isset($og_title)) $og_title = $pagename;
 if (!isset($og_description)) $og_description = $pagedescription;
+if (!isset($og_image)) $og_image = $_SERVER['REQUEST_URI'] . "_images/uta/ERB.jpg";
 if (!isset($og_sitename)) $og_sitename = $sitename;
 if (!isset($subpage_depth)) $subpage_depth = "./";
 
