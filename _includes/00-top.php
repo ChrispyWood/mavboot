@@ -46,6 +46,7 @@ if (!isset($og_url)) $og_url = $url;
     <!-- Open Graph data: fallback for most social media service basic tags -->
     <meta property="og:title" content="<?php echo $og_title; ?>" />
     <meta property="og:url" content="<?php echo $og_url; ?>" />
+    <meta property="og:image" content="<?php echo $og_image; ?>" />
     <meta property="og:description" content="<?php echo $og_description; ?>" />
     <meta property="og:site_name" content="<?php echo $og_sitename; ?>" />
 

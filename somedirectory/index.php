@@ -20,6 +20,7 @@ The following variables are optional for the current page.
 *********************************************************/
 //$og_title = ""; //Title for facebook and other social media
 //$og_description = ""; //Description for facebook and other social media
+//$og_image = ""; //Image for facebook and other social media
 //$og_sitename = ""; //Sitename for facebook and other social media
 //$canonical_url = ""; //Canonical URL
 $subpage_depth = "../"; //Add '../' for each level deep in nav structure (e.g. localhost/beep/two needs '../../')
