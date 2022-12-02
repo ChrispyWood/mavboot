@@ -1644,17 +1644,17 @@ blockquote.blockquote span.blockquote-footer {text-align:right;color:$uta-darkbl
   color:white;
   padding-top:40px;
   padding-bottom:80px;
+
+  & .hero-text { 
+    max-width:760px; 
+    padding:15px 25px 15px 25px;
+    background-color:#00447cd0;
   }
 
+  & .display-1 { color:white; text-shadow:2px 2px 2px #000; }
+  & .lead { color:white; text-shadow:1px 1px 2px #000; font-size: 1.75rem}
 
-// Hero Section  
-#home-hero .hero-text { 
-  max-width:760px; 
-  padding:15px 25px 15px 25px;
-  background-color:#00447cd0;
 }
-#home-hero .display-1 { color:white; text-shadow:2px 2px 2px #000; }
-#home-hero .lead { color:white; text-shadow:1px 1px 2px #000; font-size: 1.75rem}
 
 @media screen and (max-width: 920px) {
   #home-hero .display-1 {padding-top:5px; padding-bottom:30px;}
@@ -1690,6 +1690,18 @@ blockquote.blockquote span.blockquote-footer {text-align:right;color:$uta-darkbl
 .carousel-item h1, .carousel-item h2,
 .carousel-item h3, .carousel-item h4,
 .carousel-item h5, .carousel-item h6 {color:white} /* This is for contrast problems */
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 * Lines below for easy cut and paste in the terminal

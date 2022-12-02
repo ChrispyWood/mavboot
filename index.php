@@ -1,6 +1,6 @@
 <?php
 /********************************************************
-MAVBOOT - UTA Themed Bootstrap Framework - version 211223
+MAVBOOT - UTA Themed Bootstrap Framework - version 221202
 This is the php version.
 index.php - This is a page main file.
 See getbootstrap.com for Bootstrap documentation
@@ -24,7 +24,23 @@ The following variables are optional for the current page.
 //$og_sitename = ""; //Sitename for facebook and other social media
 //$canonical_url = ""; //Canonical URL
 //$subpage_depth = ""; //Add '../' for each level deep in nav structure (e.g. localhost/beep/two needs '../../')
-//$page_scripts_css = ""; //Contents of this variable will be inserted in the head of the page just before head end tag.
+$page_scripts_css = "
+<style>
+.icon-examples div { 
+  background-color: #f7f7f7; 
+  padding: 0 9px 0 9px;
+}
+.icon-examples div:first-child {
+  color: #003366;
+  font-size: 2.2rem;
+  margin-bottom:6px;
+}
+.icon-examples div:last-child {
+  font-size: 0.9rem;
+  margin-bottom:11px;
+}
+</style>
+"; //Contents of this variable will be inserted in the head of the page just before head end tag.
 
 include "_includes/00-top.php"; // page top
 include "_includes/01-utanavigation.php"; // UTA Global Navigation
@@ -47,9 +63,11 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
   <main>
 
   <h1>Lorem Ipsum Lab</h1>
-
-    <p class="lead">This template uses the Bootstrap framework. View the <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap 
+    
+    <p class="lead">This template uses the Bootstrap framework. View the <a href="https://getbootstrap.com/docs/5.2/getting-started/introduction/">Bootstrap 
     Documentation</a> to learn the many options for styling. Almost everything has a CSS class to render appropriately and attractively.</p>
+
+    <p class="lead">The approriate css and fonts are loaded to use both <a href='https://fontawesome.com/icons'>Font Awesome feee icons</a> and <a href='https://icons.getbootstrap.com/'>Bootstrap Icons</a>.</p>
 
     <p class="lead">Links to download theme in php or html and to view on github can be found on the the <a href='https://resources.uta.edu/engineering/faculty-websites.php'>College of Engineering Resources page on faculty and lab sites.</a></p>
 
