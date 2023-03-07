@@ -63,7 +63,7 @@ include $subpage_depth . "_includes/02-sitenavigation.php"; // This site Navigat
             <p>Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus.</p>
           </div>
           <div class="offset-md-1 col-md-5">
-            <img src="../_images/image_5.jpg" class="img-fluid" alt="Just an Image"/>
+            <img src="../_images/image_5.jpg" class="img-fluid" alt="Just an Image">
           </div>
         </div>
       </div>
@@ -74,7 +74,7 @@ include $subpage_depth . "_includes/02-sitenavigation.php"; // This site Navigat
       <div class='container'>
         <div class="row justify-content-between">
           <div class="col-md-5 pb-4">
-            <img src="../_images/image_5.jpg" class="img-fluid" alt="Just an Image"/>
+            <img src="../_images/image_5.jpg" class="img-fluid" alt="Just an Image">
           </div>
           <div class="offset-md-1 col-md-5">
             <h3 class='h2'>Duis et hendrerit ipsum.</h3>
@@ -95,7 +95,7 @@ include $subpage_depth . "_includes/02-sitenavigation.php"; // This site Navigat
             <p>Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus. Etiam sed leo laoreet, accumsan nisi quis, mattis massa. Fusce mollis in turpis quis porttitor. Integer dapibus non purus vitae luctus.</p>
           </div>
           <div class="offset-md-1 col-md-5">
-            <img src="../_images/image_5.jpg" class="img-fluid" alt="Just an Image"/>
+            <img src="../_images/image_5.jpg" class="img-fluid" alt="Just an Image">
           </div>
         </div>
       </div>
@@ -106,7 +106,7 @@ include $subpage_depth . "_includes/02-sitenavigation.php"; // This site Navigat
       <div class='container'>
         <div class="row justify-content-between">
           <div class="col-md-5 pb-4">
-            <img src="../_images/image_5.jpg" class="img-fluid" alt="Some image"/>
+            <img src="../_images/image_5.jpg" class="img-fluid" alt="Some image">
           </div>
           <div class="offset-md-1 col-md-6">
             <h3 class='h2'>Duis et hendrerit ipsum.</h3>
