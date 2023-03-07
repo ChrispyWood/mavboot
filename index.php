@@ -24,23 +24,7 @@ The following variables are optional for the current page.
 //$og_sitename = ""; //Sitename for facebook and other social media
 //$canonical_url = ""; //Canonical URL
 //$subpage_depth = ""; //Add '../' for each level deep in nav structure (e.g. localhost/beep/two needs '../../')
-$page_scripts_css = "
-<style>
-.icon-examples div { 
-  background-color: #f7f7f7; 
-  padding: 0 9px 0 9px;
-}
-.icon-examples div:first-child {
-  color: #003366;
-  font-size: 2.2rem;
-  margin-bottom:6px;
-}
-.icon-examples div:last-child {
-  font-size: 0.9rem;
-  margin-bottom:11px;
-}
-</style>
-"; //Contents of this variable will be inserted in the head of the page just before head end tag.
+$page_scripts_css = ""; //Contents of this variable will be inserted in the head of the page just before head end tag.
 
 include "_includes/00-top.php"; // page top
 include "_includes/01-utanavigation.php"; // UTA Global Navigation

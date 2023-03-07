@@ -176,15 +176,6 @@ $dropdown-link-hover-bg:            $uta-darkblue !default;
   }
 } 
 
-
-
-// Top of Page Branding and Navigation
-// @media screen and (max-width:768px) {
-//     a.navbar-brand {margin:0;}
-// }
-
-
-
 #global-navigation {
   border-top: 6px solid #f58025; 
   background-color:$uta-darkblue;
@@ -194,7 +185,6 @@ $dropdown-link-hover-bg:            $uta-darkblue !default;
   }
   & #site-title {color:$gray-100}
 }
-
 
 #sitenav {
   font-size:110%;
@@ -210,11 +200,9 @@ $dropdown-link-hover-bg:            $uta-darkblue !default;
   }
 }
 
-//Alerts
 .alert {
   border-left:4px solid transparent;
   padding-left:50px !important;
-  
   &:before {
     font-family: Font Awesome\ 5 Free;
     font-weight: 900;align-items: center;
@@ -222,7 +210,6 @@ $dropdown-link-hover-bg:            $uta-darkblue !default;
     left: 0;padding: .75rem 1.25rem;
     position: absolute; top: 0;
   }
-
   &.alert-primary {
     border-color:$uta-darkblue
   }
@@ -269,8 +256,6 @@ $dropdown-link-hover-bg:            $uta-darkblue !default;
   }
 }
 
-
-// Sidebar
 #site-sidebar {
   border-left:1px solid $uta-orange;
   & p, & li {font-size: 0.95em;}
@@ -278,14 +263,24 @@ $dropdown-link-hover-bg:            $uta-darkblue !default;
   & h2 {font-size:1.4em;}
   & h3 {font-size:1.2em;}
   & h4 {font-size:1.1em;}
+  & aside .icon-examples div { 
+    background-color: #f7f7f7; 
+    padding: 0 9px 0 9px;
+    &:first-child {    
+      color: #003366;
+      font-size: 2.2rem;
+      margin-bottom:6px;
+    }
+    &:last-child {    
+      font-size: 0.9rem;
+      margin-bottom:11px;
+    }
+  }
 }
-
 
 // Main Content Area
 #maincontent {min-height:700px;}
-
 figcaption {font-size:80%;text-align:center}
-
 
 // make text on dark show as white
 .bg-dark h1, .bg-dark h2, 
@@ -300,7 +295,6 @@ figcaption {font-size:80%;text-align:center}
   color:white;
 }
 
-// Footer
 #footer-area {
   background-color: #003366;
   color: white;
@@ -323,7 +317,6 @@ figcaption {font-size:80%;text-align:center}
       }
     }
   }
-  
   & a {
     color:#dedede; 
     text-decoration:underline;
@@ -334,13 +327,11 @@ figcaption {font-size:80%;text-align:center}
       text-decoration-color: #dedede;
     }
   }
-
   & h1, & h2, 
   & h3, & h4, 
   & h5, & h6 {
     color:white;
   }
-
   & .social-icons {
     color:#dedede;
     font-size:2em;
@@ -382,7 +373,6 @@ blockquote.blockquote span.blockquote-footer {text-align:right;color:$uta-darkbl
 //Buttons and cards
 .btn, .card {margin-bottom:15px}
 
-
 //Back to Top Button
 #btn-back-to-top {
   position: fixed;
@@ -390,7 +380,6 @@ blockquote.blockquote span.blockquote-footer {text-align:right;color:$uta-darkbl
   right: 20px;
   display: none;
 }
-
 
 // Homepage hero
 #home-hero {
@@ -407,18 +396,14 @@ blockquote.blockquote span.blockquote-footer {text-align:right;color:$uta-darkbl
     padding:15px 25px 15px 25px;
     background-color:#00447cd0;
   }
-
   & .display-1 { color:white; text-shadow:2px 2px 2px #000; }
   & .lead { color:white; text-shadow:1px 1px 2px #000; font-size: 1.75rem}
-
 }
 
 @media screen and (max-width: 920px) {
   #home-hero .display-1 {padding-top:5px; padding-bottom:30px;}
   #home-hero { min-height:100px; }
 }
-
-// Divided Sections image and text
 
 .split-section {
   padding-top:80px;
@@ -445,18 +430,6 @@ blockquote.blockquote span.blockquote-footer {text-align:right;color:$uta-darkbl
 .carousel-item h1, .carousel-item h2,
 .carousel-item h3, .carousel-item h4,
 .carousel-item h5, .carousel-item h6 {color:white} /* This is for contrast problems */
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
 * Lines below for easy cut and paste in the terminal
