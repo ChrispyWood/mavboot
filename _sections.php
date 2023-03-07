@@ -41,7 +41,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
       <div class='container'>
         <div class="row justify-content-around">
           <div class="col-md-5 pb-4">
-            <img src="_images/image_5.jpg" class="img-fluid" alt="Just an Image"/>
+            <img src="_images/image_5.jpg" class="img-fluid" alt="Just an Image">
           </div>
           <div class="offset-md-1 col-md-6">
             <h1 class='h2'>Duis et hendrerit ipsum.</h1>

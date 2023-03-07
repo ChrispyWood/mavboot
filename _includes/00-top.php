@@ -45,16 +45,17 @@ if (!isset($og_url)) $og_url = $url;
     <?php if (isset($canonical_url)) echo "<link rel='canonical' href='$canonical_url' />"; ?>
 
     <!-- Open Graph data: fallback for most social media service basic tags -->
-    <meta property="og:title" content="<?php echo $og_title; ?>" />
-    <meta property="og:url" content="<?php echo $og_url; ?>" />
-    <meta property="og:image" content="<?php echo $og_image; ?>" />
-    <meta property="og:description" content="<?php echo $og_description; ?>" />
-    <meta property="og:site_name" content="<?php echo $og_sitename; ?>" />
+    <meta property="og:title" content="<?php echo $og_title; ?>">
+    <meta property="og:url" content="<?php echo $og_url; ?>">
+    <meta property="og:image" content="<?php echo $og_image; ?>">
+    <meta property="og:description" content="<?php echo $og_description; ?>">
+    <meta property="og:site_name" content="<?php echo $og_sitename; ?>">
+    <meta property="og:type" content="website">
 
     <!-- Twitter data -->
-    <meta name="twitter:site" content="<?php echo $og_sitename; ?>" />
-    <meta name="twitter:text:title" content="<?php echo $og_title; ?>" />
-    <meta name="twitter:description" content="<?php echo $og_description; ?>" />
+    <meta name="twitter:site" content="<?php echo $og_sitename; ?>">
+    <meta name="twitter:text:title" content="<?php echo $og_title; ?>">
+    <meta name="twitter:description" content="<?php echo $og_description; ?>">
 
     <!-- Icons -->
     <link href="<?php echo $subpage_depth;?>_icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
