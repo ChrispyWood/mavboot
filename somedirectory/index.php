@@ -18,13 +18,18 @@ $pagedescription = "Sections Examples: The Lorem Ipsum Lab takes samples and res
 /********************************************************
 The following variables are optional for the current page.
 *********************************************************/
-//$og_title = ""; //Title for facebook and other social media
-//$og_description = ""; //Description for facebook and other social media
-//$og_image = ""; //Image for facebook and other social media
-//$og_sitename = ""; //Sitename for facebook and other social media
-//$canonical_url = ""; //Canonical URL
-$subpage_depth = "../"; //Add '../' for each level deep in nav structure (e.g. localhost/beep/two needs '../../')
+// $og_title = "Webpage Templates for UTA College of Engineering"; //Title for facebook and other social media
+// $og_description = "HTML and PHP versions of mavboot, a template for faculty and lab web pages."; //Description for facebook and other social media
+// $og_image = "https://uta.engineering/mavboot/_images/uta/facebook_image.jpg"; //Image for facebook and other social media
+// $og_image_alt = "Civil Engineers in the Civil Engineering lab"; //Description of Image for facebook and other social media
+// $og_sitename = "The College of Engineering at The University of Texas at Arlington"; //Sitename for facebook and other social media
+// $canonical_url = "https://uta.engineering/mavboot/"; //Canonical URL
+//$subpage_depth = ""; //Add '../' for each level deep in nav structure (e.g. localhost/beep/two needs '../../')
 //$page_scripts_css = ""; //Contents of this variable will be inserted in the head of the page just before head end tag.
+
+// $twitter_title = "Webpage Templates for UTA College of Engineering"; //Title for twitter card
+// $twitter_image = "https://uta.engineering/mavboot/_images/uta/twitter_card.jpg"; //Image for facebook and other social media
+// $twitter_description = "HTML and PHP versions of mavboot, a template for faculty and lab web pages."; //Description for facebook and other social media
 
 include $subpage_depth . "_includes/00-top.php"; // page top
 include $subpage_depth . "_includes/01-utanavigation.php"; // UTA Global Navigation
