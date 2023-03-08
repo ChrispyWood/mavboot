@@ -3,6 +3,7 @@ Bootstrap Themed for UTA College of Engineering
 Updated March 8, 2023
 
 Please report any issues or errors.
+The current version uses Bootstrap v5.2.3 framework.  See https://getbootstrap.com/docs/5.2/getting-started/introduction/
 
 ## Versions 
 Three versions are available.
