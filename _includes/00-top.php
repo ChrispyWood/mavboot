@@ -49,13 +49,13 @@ if (!isset($og_url)) $og_url = $url;
 
 
   <!-- Open Graph data: fallback for most social media service basic tags -->
-  <meta property="og:type" content="website" />  
-  <meta property="og:site_name" content="<?php echo $og_sitename; ?>" /> 
-  <meta property="og:title" content="<?php echo $og_title; ?>" /> 
-  <meta property="og:description" content="<?php echo $og_description; ?>" />
-  <meta property="og:url" content="<?php echo $og_url; ?>" /> 
-  <meta property="og:image" content="<?php echo $og_image; ?>" /> 
-  <meta property="og:image:alt" content="<?php echo $og_image_alt; ?>" /> 
+  <meta property="og:type" content="website">  
+  <meta property="og:site_name" content="<?php echo $og_sitename; ?>"> 
+  <meta property="og:title" content="<?php echo $og_title; ?>"> 
+  <meta property="og:description" content="<?php echo $og_description; ?>">
+  <meta property="og:url" content="<?php echo $og_url; ?>"> 
+  <meta property="og:image" content="<?php echo $og_image; ?>"> 
+  <meta property="og:image:alt" content="<?php echo $og_image_alt; ?>"> 
 
   <!-- Twitter data -->
   <meta name="twitter:card" content="summary_large_image">

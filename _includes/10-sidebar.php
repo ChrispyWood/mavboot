@@ -8,7 +8,7 @@ to change look (e.g. <h2 class='h4').
 *********************************************************/
 ?>
 <figure>
-  <img src="<?php echo $subpage_depth;?>_images/uta/ERB.jpg" alt="Students enter the Engineering Research Building at UTA" class="img-fluid" />
+  <img src="<?php echo $subpage_depth;?>_images/uta/ERB.jpg" alt="Students enter the Engineering Research Building at UTA" class="img-fluid">
   <figcaption>
     The Engineering Research Building at UTA
   </figcaption>
