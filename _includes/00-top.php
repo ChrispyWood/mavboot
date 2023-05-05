@@ -21,6 +21,7 @@ if (!isset($twitter_title)) $twitter_title = $pagename;
 if (!isset($twitter_image)) $twitter_image = "https://uta.engineering/mavboot/_images/uta/twitter_card.jpg";
 if (!isset($twitter_description)) $twitter_description = $pagedescription;
 if (!isset($og_image_alt)) $og_image_alt = $pagename;
+if (!isset($twitter_image_alt)) $twitter_image_alt = $og_image_alt;
 
 // Build a URL for default og_url
 if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') $url = "https://";   
@@ -48,21 +49,21 @@ if (!isset($og_url)) $og_url = $url;
 
 
   <!-- Open Graph data: fallback for most social media service basic tags -->
+  <meta property="og:type" content="website" />  
+  <meta property="og:site_name" content="<?php echo $og_sitename; ?>" /> 
   <meta property="og:title" content="<?php echo $og_title; ?>" /> 
+  <meta property="og:description" content="<?php echo $og_description; ?>" />
   <meta property="og:url" content="<?php echo $og_url; ?>" /> 
   <meta property="og:image" content="<?php echo $og_image; ?>" /> 
   <meta property="og:image:alt" content="<?php echo $og_image_alt; ?>" /> 
-  <meta property="og:description" content="<?php echo $og_description; ?>" /> 
-  <meta property="og:site_name" content="<?php echo $og_sitename; ?>" /> 
-  <meta property="og:type" content="website" /> 
 
   <!-- Twitter data -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@mavengineering">
-  <meta name="twitter:creator" content="@ChrispyWood">
   <meta name="twitter:title" content="<?php echo $twitter_title; ?>">
   <meta name="twitter:description" content="<?php echo $twitter_description; ?>">
   <meta name="twitter:image" content="<?php echo $twitter_image; ?>"> 
+  <meta name="twitter:image:alt" content="<?php echo $twitter_image_alt; ?>"> 
 
   <!-- Icons -->
   <link href="<?php echo $subpage_depth;?>_icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
