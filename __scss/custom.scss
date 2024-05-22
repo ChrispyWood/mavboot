@@ -160,6 +160,8 @@ $dropdown-link-hover-bg:            $uta-darkblue !default;
 /******************************************************************************
  * Customization for UTA Build
  *****************************************************************************/
+code {color:rgb(73, 8, 8)!important}
+
 
 // Skip to Content Link
 .skippy {
@@ -184,10 +186,14 @@ $dropdown-link-hover-bg:            $uta-darkblue !default;
   border-top: 6px solid #f58025; 
   background-color:$uta-darkblue;
   & #uta-logo {
-    max-height: 35px;
+    max-height: 50px;
     width: auto;
+    margin-bottom:10px;
+    margin-top:10px;
   }
-  & #site-title {color:$gray-100}
+  & #site-title {
+    color:white;
+  }
 }
 
 #sitenav {
@@ -202,6 +208,11 @@ $dropdown-link-hover-bg:            $uta-darkblue !default;
   @media screen and (max-width:576px) {
     & .nav-item a.nav-link {padding-left:20px;}
   }
+}
+
+.navbar-toggler-icon {
+  min-height:40px;
+  min-width:40px;
 }
 
 .alert {
@@ -434,6 +445,7 @@ blockquote.blockquote span.blockquote-footer {text-align:right;color:$uta-darkbl
 .carousel-item h1, .carousel-item h2,
 .carousel-item h3, .carousel-item h4,
 .carousel-item h5, .carousel-item h6 {color:white} /* This is for contrast problems */
+
 
 /*
 * Lines below for easy cut and paste in the terminal

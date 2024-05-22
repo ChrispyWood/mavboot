@@ -9,7 +9,7 @@ See getbootstrap.com for Bootstrap documentation
 /********************************************************
 The following variables are required for the current page.
 *********************************************************/
-$sitename = "Lorem Ipsum Lab";  // Name of this webiste
+$sitename = "Lorem Ipsum Lab Lorem Ipsum Lab Lorem Ipsum Lab";  // Name of this webiste
 $parentsite = "College of Engineering";  // College or department to which the lab belongs
 $parent_site_url = "https://www.uta.edu/academics/schools-colleges/engineering";  // URL of the college or department homepage
 $pagename = "Lorem Ipsum Lab Home";  // Title of this page (appears in tab of web browser)

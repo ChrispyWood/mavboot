@@ -35,7 +35,7 @@
   <link href="./_icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
 
   <!-- Bootstrap & Fontawsome -->
-  <link rel="stylesheet" href="./_css/style.css">
+  <link rel="stylesheet" href="./_css/style.css?v=1232">
   <link href="./_css/bootstrap-icons.css" rel="stylesheet">
   <link href="./_css/all.min.css" rel="stylesheet"> <!--load fontawesome -->
 
@@ -50,21 +50,25 @@
 
 <!-- Global Navigation Banner and Links -->
 <nav title="Banner and Global UTA Navigation" >
-  <div id="global-navigation" class="d-flex flex-column flex-md-row align-items-center pt-1 px-md-4 navbar-dark" >
-    <a class="navbar-brand" href="https://www.uta.edu/">
-      <img src="./_images/uta/uta-logo.png" id="uta-logo" alt="The University of Texas at Arlington logo">
-      <span class='visually-hidden'>The University of Texas at Arlington</span>
-    </a>
-    <span id="site-title" class="my-2 mx-3 mr-md-auto h2">Lorem Ipsum Lab</span>
-    <div class="my-2 my-md-0 mr-md-3 flex-grow-1 d-flex justify-content-end">
+  <div id="global-navigation" class="d-flex justify-content-between navbar-dark">
+    <div class="d-flex align-items-center">
+        <a class="navbar-brand ps-3" href="https://www.uta.edu/">
+          <img src="./_images/uta/uta-logo.png" id="uta-logo" alt="The University of Texas at Arlington logo">
+          <span class='visually-hidden'>The University of Texas at Arlington</span>
+        </a>
+        <span id="site-title" class="h2 ps-4 mt-1">Lorem Ipsum Lab</span>
+    </div>
+    
+    <div class="d-flex align-items-center pe-3">
       <a class="p-2 text-light d-none d-lg-block" href="https://www.uta.edu/academics/schools-colleges/engineering">
         College of Engineering      </a>
-      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#theNavbar" aria-controls="theNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler d-lg-none m-1" type="button" data-bs-toggle="collapse" data-bs-target="#theNavbar" aria-controls="theNavbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     </div>
   </div>
-</nav>
+</nav> 
+
 <!-- Site Navigation Menu -->
 <nav title="Site Navigation" id="sitenav" class="navbar navbar-expand-lg navbar-light bg-light border-bottom p-0">
   <div class="container">
