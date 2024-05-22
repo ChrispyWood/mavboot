@@ -9,7 +9,7 @@ See getbootstrap.com for Bootstrap documentation
 /********************************************************
 The following variables are required for the current page.
 *********************************************************/
-$sitename = "Lorem Ipsum Lab Lorem Ipsum Lab Lorem Ipsum Lab";  // Name of this webiste
+$sitename = "Lorem Ipsum Lab";  // Name of this webiste
 $parentsite = "College of Engineering";  // College or department to which the lab belongs
 $parent_site_url = "https://www.uta.edu/academics/schools-colleges/engineering";  // URL of the college or department homepage
 $pagename = "Lorem Ipsum Lab Home";  // Title of this page (appears in tab of web browser)
@@ -1441,29 +1441,6 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
         </div>
         <div class="spinner-grow text-dark" role="status">
           <span class="visually-hidden">Loading...</span>
-        </div>
-        </div>
-      </div>
-    </article>
-    <article class="my-3" id="toasts">
-      <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
-       <hr class='my-4'><h3>Toasts</h3>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/components/toasts/">Toasts Documentation</a><hr class='my-4'>
-      </div>
-
-      <div>
-        <div class="bd-example bg-dark p-5 align-items-center">
-        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-          <div class="toast-header">
-            <svg class="bd-placeholder-img rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#007aff"/></svg>
-
-            <strong class="me-auto">Bootstrap</strong>
-            <small class="text-muted">11 mins ago</small>
-            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-          </div>
-          <div class="toast-body">
-            Hello, world! This is a toast message.
-          </div>
         </div>
         </div>
       </div>
