@@ -8,9 +8,16 @@
  *
  *******************************************************************************/
 
- @import "../node_modules/bootstrap/scss/mixins/banner";
- @include bsBanner("");
-
+ // Keeping the Bootstrap copyright, but adding UTA Comments
+ @mixin bsBanner() {
+  /*!
+   * Bootstrap v5.3.3 (https://getbootstrap.com/)
+   * Copyright 2011-2024 The Bootstrap Authors
+   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+   * Bootstrap Customized for the College of Engineering at The University of Texas at Arlington
+   */
+}
+@include bsBanner();
 
 /******************************************************************************
     UTA Colors
@@ -20,112 +27,18 @@
  *******************************************************************************/
  @import "../node_modules/bootstrap/scss/functions";
 
-/*!  
- * Bootstrap Themed for mavboot
- */
+// Include my own variables file for most customizations of Bootstrap styles
+@import "variables";
 
-// Variable Changes
+// Include remainder of required Bootstrap stylesheets
+@import "../node_modules/bootstrap/scss/variables-dark";
 
-// Color system
-
-$white:    #fff !default;
-$gray-600: #6c757d !default;
-$gray-800: #343a40 !default;
-$gray-100: #f8f9fa !default;
-
-$blue:    #007bff !default;
-$indigo:  #6610f2 !default;
-$purple:  #6f42c1 !default;
-$pink:    #e83e8c !default;
-$red:     #dc3545 !default;
-$orange:  #fd7e14 !default;
-$yellow:  #ffc107 !default;
-$green:   #175E28 !default;
-$teal:    #20c997 !default;
-$cyan:    #17a2b8 !default;
-$uta-blue:  #0064b1 !default;
-$uta-darkblue:  #00447c !default;
-$uta-orange:    #f58025 !default;
-$uta-darkorange:    #BF570D !default;
-
-$colors: (
-    "blue":       $blue,
-    "indigo":     $indigo,
-    "purple":     $purple,
-    "pink":       $pink,
-    "red":        $red,
-    "orange":     $orange,
-    "yellow":     $yellow,
-    "green":      $green,
-    "teal":       $teal,
-    "cyan":       $cyan,
-    "white":      $white,
-    "gray":       $gray-600,
-    "gray-dark":  $gray-800,
-    "uta-blue":   $uta-darkblue,
-    "uta-darkblue": $uta-darkblue,
-    "uta-orange":   $uta-orange,
-    "uta-darkorange":   $uta-darkorange
-) !default;
-
-$primary:       $uta-darkblue !default;
-$secondary:     $uta-blue !default;
-$success:       $green !default;
-$info:          $uta-darkorange !default;
-$warning:       $yellow !default;
-$danger:        $red !default;
-$light:         $gray-100 !default;
-$dark:          $gray-800 !default;
-
-$theme-colors: (
-    "primary":    $primary,
-    "secondary":  $secondary,
-    "success":    $success,
-    "info":       $info,
-    "warning":    $warning,
-    "danger":     $danger,
-    "light":      $light,
-    "dark":       $dark
-) !default;
-
-$link-color:                  $uta-darkblue !default;
-$font-size-base:              1.1rem !default; // Assumes the browser default, typically `16px`
-$headings-font-family:        "Century Gothic", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, !default;
-$headings-line-height:        1.5 !default;
-$headings-color:              $primary !default;
-$lead-font-weight:            400 !default;
-$blockquote-footer-color:     $primary !default;
-
-$navbar-light-color:                rgba($uta-darkblue, .90) !default;
-$navbar-light-hover-color:          rgba($uta-darkblue, .99) !default;
-$navbar-light-active-color:         rgba($uta-darkblue, .99) !default;
-$navbar-light-disabled-color:       rgba($uta-darkblue, .3) !default;
-$navbar-light-toggler-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-light-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !default;
-$navbar-light-toggler-border-color: rgba($uta-darkblue, .1) !default;
-
-$dropdown-bg:                       #f8f9fa !important;
-$dropdown-link-color:               $uta-darkblue !default;
-$dropdown-link-hover-color:         $white !default;
-$dropdown-link-hover-bg:            $uta-darkblue !default;
-
-
-// 3. Include remainder of required Bootstrap stylesheets
-@import "../node_modules/bootstrap/scss/variables";
-
-// 5. Include remainder of required parts
+// Include remainder of required parts
 @import "../node_modules/bootstrap/scss/maps";
 @import "../node_modules/bootstrap/scss/mixins";
 @import "../node_modules/bootstrap/scss/root";
 
-// 6. Optionally include any other parts as needed
-@import "../node_modules/bootstrap/scss/utilities";
-@import "../node_modules/bootstrap/scss/reboot";
-@import "../node_modules/bootstrap/scss/type";
-@import "../node_modules/bootstrap/scss/images";
-@import "../node_modules/bootstrap/scss/containers";
-@import "../node_modules/bootstrap/scss/grid";
-@import "../node_modules/bootstrap/scss/helpers";
-
+// Include any other Bootstrap parts as needed
 @import "../node_modules/bootstrap/scss/accordion";
 @import "../node_modules/bootstrap/scss/alert";
 @import "../node_modules/bootstrap/scss/badge";
@@ -135,24 +48,31 @@ $dropdown-link-hover-bg:            $uta-darkblue !default;
 @import "../node_modules/bootstrap/scss/card";
 @import "../node_modules/bootstrap/scss/carousel";
 @import "../node_modules/bootstrap/scss/close";
+@import "../node_modules/bootstrap/scss/containers";
 @import "../node_modules/bootstrap/scss/dropdown";
-@import "../node_modules/bootstrap/scss/forms"; 
-@import "../node_modules/bootstrap/scss/list-group"; 
-@import "../node_modules/bootstrap/scss/modal"; 
-@import "../node_modules/bootstrap/scss/nav"; 
-@import "../node_modules/bootstrap/scss/navbar"; 
-@import "../node_modules/bootstrap/scss/offcanvas"; 
-@import "../node_modules/bootstrap/scss/pagination"; 
-@import "../node_modules/bootstrap/scss/placeholders"; 
-@import "../node_modules/bootstrap/scss/popover"; 
+@import "../node_modules/bootstrap/scss/forms";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/helpers";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/list-group";
+@import "../node_modules/bootstrap/scss/modal";
+@import "../node_modules/bootstrap/scss/nav";
+@import "../node_modules/bootstrap/scss/navbar";
+@import "../node_modules/bootstrap/scss/offcanvas";
+@import "../node_modules/bootstrap/scss/pagination";
+@import "../node_modules/bootstrap/scss/placeholders";
+@import "../node_modules/bootstrap/scss/popover";
 @import "../node_modules/bootstrap/scss/progress";
-@import "../node_modules/bootstrap/scss/spinners"; 
-@import "../node_modules/bootstrap/scss/tables"; 
-@import "../node_modules/bootstrap/scss/toasts"; 
-@import "../node_modules/bootstrap/scss/tooltip"; 
-@import "../node_modules/bootstrap/scss/transitions"; 
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/spinners";
+@import "../node_modules/bootstrap/scss/tables";
+@import "../node_modules/bootstrap/scss/toasts";
+@import "../node_modules/bootstrap/scss/tooltip";
+@import "../node_modules/bootstrap/scss/transitions";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/utilities";
 
-// 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+// Include utilities API last to generate classes based on the Sass map in `_utilities.scss`
 @import "../node_modules/bootstrap/scss/utilities/api";
 
 // Then add additional custom code here
@@ -160,7 +80,6 @@ $dropdown-link-hover-bg:            $uta-darkblue !default;
 /******************************************************************************
  * Customization for UTA Build
  *****************************************************************************/
-code {color:rgb(73, 8, 8)!important}
 
 
 // Skip to Content Link
@@ -446,6 +365,10 @@ blockquote.blockquote span.blockquote-footer {text-align:right;color:$uta-darkbl
 .carousel-item h3, .carousel-item h4,
 .carousel-item h5, .carousel-item h6 {color:white} /* This is for contrast problems */
 
+// Code
+code {
+  color:rgb(73, 8, 8)!important
+}
 
 /*
 * Lines below for easy cut and paste in the terminal

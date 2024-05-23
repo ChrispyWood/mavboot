@@ -72,7 +72,7 @@ if (!isset($og_url)) $og_url = $url;
   <link href="<?php echo $subpage_depth;?>_icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
 
   <!-- Bootstrap & Fontawsome -->
-  <link rel="stylesheet" href="<?php echo $subpage_depth;?>_css/style.css?v=1232">
+  <link rel="stylesheet" href="<?php echo $subpage_depth;?>_css/style.css?v=20240523">
   <link href="<?php echo $subpage_depth;?>_css/bootstrap-icons.css" rel="stylesheet">
   <link href="<?php echo $subpage_depth;?>_css/all.min.css" rel="stylesheet"> <!--load fontawesome -->
 

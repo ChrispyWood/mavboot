@@ -57,12 +57,14 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
 
   <h1>Lorem Ipsum Lab</h1>
     
-    <p class="lead">This template uses the Bootstrap framework. View the <a href="https://getbootstrap.com/docs/5.2/getting-started/introduction/">Bootstrap 
+    <p class="lead">This template uses the Bootstrap framework. View the <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Bootstrap 
     Documentation</a> to learn the many options for styling. Almost everything has a CSS class to render appropriately and attractively.</p>
 
     <p class="lead">The approriate css and fonts are loaded to use both <a href='https://fontawesome.com/icons'>Font Awesome feee icons</a> and <a href='https://icons.getbootstrap.com/'>Bootstrap Icons</a>.</p>
 
-    <p class="lead">Links to download theme in php or html and to view on github can be found on the the <a href='https://resources.uta.edu/engineering/faculty-websites.php'>College of Engineering Resources page on faculty and lab sites.</a></p>
+    <p class="lead">
+      Find a php and an html version of the theme at <a href='https://github.com/ChrispyWood/mavboot'>https://github.com/ChrispyWood/mavboot</a>
+    </p>
 
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel sem facilisis, suscipit dolor ac, volutpat nisi. In vitae tristique nisi. 
     Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi ut metus dictum neque lobortis maximus non id 
@@ -499,8 +501,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
       <div>
         <div class="bd-example">
         <figure class="figure">
-          <svg class="bd-placeholder-img figure-img img-fluid rounded" width="400" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 400x300" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"/></svg>
-
+          <img src="https://loremflickr.com/400/300" alt="sample image" />
           <figcaption class="figure-caption">A caption for the above image.</figcaption>
         </figure>
         </div>
@@ -953,8 +954,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
         <div class="row  row-cols-1 row-cols-md-2 g-4">
           <div class="col">
             <div class="card">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"/></svg>
-
+              <img src="https://loremflickr.com/900/360" />
               <div class="card-body">
                 <h4 class="card-title">Card title</h4>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -995,7 +995,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
             <div class="card">
               <div class="row g-0">
                 <div class="col-md-4">
-                  <svg class="bd-placeholder-img" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"/></svg>
+                  <img src="https://loremflickr.com/180/300" class='img-fluid'/>
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
