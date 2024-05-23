@@ -23,7 +23,7 @@ Remember that .sr-only means screen reader only.
           </span>
         </div>
         <div class='col-lg-4'>
-          <img id="footer-uta-name" class="img-fluid pb-4" src='_images/uta/name_with_logo.png' alt="The University of Texas at Arlington Logo">
+          <img id="footer-uta-name" class="img-fluid pb-4" src='_images/uta/name_with_logo.png' alt="Name Plate for UT Arlington">
           <p id='footer-links'>
             <a href="https://www.uta.edu/legalaffairs/notices/legal-and-privacy-notice.php">Privacy and Legal Notice</a> |
             <a href="https://accessibility.uta.edu/">Accessibility</a> |

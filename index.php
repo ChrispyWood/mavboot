@@ -226,21 +226,33 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
       </div>
 
       <div class="bd-example">
-        <p class="display-1">Display 1</p>
-        <p class="display-2">Display 2</p>
-        <p class="display-3">Display 3</p>
-        <p class="display-4">Display 4</p>
-        <p class="display-5">Display 5</p>
-        <p class="display-6">Display 6</p>
+        <h4 class="display-1">Display 1</h4>
+        <p>That was a heading.</p>
+        <h4 class="display-2">Display 2</h4>
+        <p>That was a heading.</p>
+        <h4 class="display-3">Display 3</h4>
+        <p>That was a heading.</p>
+        <h4 class="display-4">Display 4</h4>
+        <p>That was a heading.</p>
+        <h4 class="display-5">Display 5</h4>
+        <p>That was a heading.</p>
+        <h4 class="display-6">Display 6</h4>
+        <p>That was a heading.</p>
       </div>
 
       <div class="bd-example">
-        <p class="h1">Heading 1</p>
-        <p class="h2">Heading 2</p>
-        <p class="h3">Heading 3</p>
-        <p class="h4">Heading 4</p>
-        <p class="h5">Heading 5</p>
-        <p class="h6">Heading 6</p>
+        <h4 class="h1">Heading 1</h4>
+        <p>That was a heading.</p>
+        <h4 class="h2">Heading 2</h4>
+        <p>That was a heading.</p>
+        <h4class="h3">Heading 3</h4>
+        <p>That was a heading.</p>
+        <h4 class="h4">Heading 4</h4>
+        <p>That was a heading.</p>
+        <h4 class="h5">Heading 5</h4>
+        <p>That was a heading.</p>
+        <h4 class="h6">Heading 6</h4>
+        <p>That was a heading.</p>
       </div>
 
       <div class="bd-example">
@@ -254,7 +266,6 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
         <p><del>This line of text is meant to be treated as deleted text.</del></p>
         <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
         <p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
-        <p><u>This line of text will render as underlined.</u></p>
         <p><small>This line of text is meant to be treated as fine print.</small></p>
         <p><strong>This line rendered as bold text.</strong></p>
         <p><em>This line rendered as italicized text.</em></p>
@@ -263,7 +274,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
       <div class="bd-example">
         <blockquote class="blockquote">
           <p>A well-known quote, contained in a blockquote element.</p>
-          <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+          <footer class="blockquote-footer">Someone famous in <cite title="The Title's or Author's Source">Source Title</cite></footer>
         </blockquote>
       </div>
 
@@ -819,14 +830,22 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
 
       <div>
         <div class="bd-example">
-        <p class="h1">Example heading <span class="badge bg-primary">New</span></p>
-        <p class="h2">Example heading <span class="badge bg-secondary">New</span></p>
-        <p class="h3">Example heading <span class="badge bg-success">New</span></p>
-        <p class="h4">Example heading <span class="badge bg-danger">New</span></p>
-        <p class="h5">Example heading <span class="badge bg-warning text-dark">New</span></p>
-        <p class="h6">Example heading <span class="badge bg-info">New</span></p>
-        <p class="h6">Example heading <span class="badge bg-light text-dark">New</span></p>
-        <p class="h6">Example heading <span class="badge bg-dark">New</span></p>
+        <h4 class="h1">Example heading <span class="badge bg-primary">New</span></h4>
+        <p>There is a heading above.</p>
+        <h4 class="h2">Example heading <span class="badge bg-secondary">New</span></h4>
+        <p>There is a heading above.</p>
+        <h4 class="h3">Example heading <span class="badge bg-success">New</span></h4>
+        <p>There is a heading above.</p>
+        <h4 class="h4">Example heading <span class="badge bg-danger">New</span></h4>
+        <p>There is a heading above.</p>
+        <h4 class="h5">Example heading <span class="badge bg-warning text-dark">New</span></h4>
+        <p>There is a heading above.</p>
+        <h4 class="h6">Example heading <span class="badge bg-info">New</span></h4>
+        <p>There is a heading above.</p>
+        <h4 class="h6">Example heading <span class="badge bg-light text-dark">New</span></h4>
+        <p>There is a heading above.</p>
+        <h4 class="h6">Example heading <span class="badge bg-dark">New</span></h4>
+        <p>There is a heading above.</p>
         </div>
 
         <div class="bd-example">
@@ -1007,7 +1026,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
               Dropdown button
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonSM">
-              <li><h6 class="dropdown-header">Dropdown header</h6></li>
+              <li><h4 class="dropdown-header h6">Dropdown header</h4></li>
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -1020,7 +1039,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
               Dropdown button
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <li><h6 class="dropdown-header">Dropdown header</h6></li>
+              <li><h4 class="dropdown-header h6">Dropdown header</h4></li>
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -1033,7 +1052,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
               Dropdown button
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonLG">
-              <li><h6 class="dropdown-header">Dropdown header</h6></li>
+              <li><h4 class="dropdown-header h6">Dropdown header</h4></li>
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -1120,7 +1139,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
               Dropend button
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropendMenuButton">
-              <li><h6 class="dropdown-header">Dropdown header</h6></li>
+              <li><h4 class="dropdown-header h6">Dropdown header</h4></li>
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -1133,7 +1152,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
               Dropup button
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropupMenuButton">
-              <li><h6 class="dropdown-header">Dropdown header</h6></li>
+              <li><h4 class="dropdown-header h6">Dropdown header</h4></li>
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -1146,7 +1165,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
               Dropstart button
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropstartMenuButton">
-              <li><h6 class="dropdown-header">Dropdown header</h6></li>
+              <li><h4 class="dropdown-header h6">Dropdown header</h4></li>
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -1164,7 +1183,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
               End-aligned menu
             </button>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownRightMenuButton">
-              <li><h6 class="dropdown-header">Dropdown header</h6></li>
+              <li><h4 class="dropdown-header h6">Dropdown header</h4></li>
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
               <li><hr class="dropdown-divider"></li>
@@ -1252,9 +1271,9 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
       <div>
         <div class="bd-example">
         <nav class="nav" title='example-nav-1'>
-          <a class="nav-link active" aria-current="page" href="#">Active</a>
-          <a class="nav-link" href="#">Link</a>
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link active" aria-current="page" href="https://google.com">Google</a>
+          <a class="nav-link" href="https://yahoo.com">Yahoo!</a>
+          <a class="nav-link" href="https://altavist.com">AltaVista</a>
           <a class="nav-link disabled" tabindex="-1" aria-disabled="true">Disabled</a>
         </nav>
         </div>
@@ -1283,13 +1302,13 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
         <div class="bd-example">
         <ul class="nav nav-pills">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Active</a>
+            <a class="nav-link active" aria-current="page" href="https://google.com">Google</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="https://yahoo.com">Yahoo!</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="https://altavista.com">Altavista</a>
           </li>
           <li class="nav-item">
             <a class="nav-link disabled" tabindex="-1" aria-disabled="true">Disabled</a>

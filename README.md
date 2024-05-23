@@ -1,6 +1,6 @@
 # mavboot
 Bootstrap Themed for UTA College of Engineering 
-Updated May 5, 2023
+Updated May 22, 2024
 
 Please report any issues or errors.
 The current version uses Bootstrap v5.2.3 framework.  See https://getbootstrap.com/docs/5.2/getting-started/introduction/
