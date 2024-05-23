@@ -63,7 +63,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
     <p class="lead">The approriate css and fonts are loaded to use both <a href='https://fontawesome.com/icons'>Font Awesome feee icons</a> and <a href='https://icons.getbootstrap.com/'>Bootstrap Icons</a>.</p>
 
     <p class="lead">
-      Find a php and an html version of the theme at <a href='https://github.com/ChrispyWood/mavboot'>https://github.com/ChrispyWood/mavboot</a>
+      The web developer in the Dean of Engineering Office can help set a website up for you, or find a php and an html version of the theme at <a href='https://github.com/ChrispyWood/mavboot'>https://github.com/ChrispyWood/mavboot</a>
     </p>
 
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel sem facilisis, suscipit dolor ac, volutpat nisi. In vitae tristique nisi. 
@@ -224,7 +224,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
 
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
         <h3>Typography</h3>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/content/typography/">Typography Documentation</a><hr class='my-4'>
+        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.3/content/typography/">Typography Documentation</a><hr class='my-4'>
       </div>
 
       <div class="bd-example">
@@ -310,16 +310,16 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
 
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
         <hr class='my-4'><h3>Images</h3>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/content/images/">Image Documentation</a><hr class='my-4'>
+        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.3/content/images/">Image Documentation</a><hr class='my-4'>
       </div>
 
       <div>
         <div class="bd-example">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg img-fluid" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Responsive image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"/></svg>
+          <img src="https://loremflickr.com/1200/260" class='img-fluid' />
         </div>
 
-        <div class="bd-example">
-          <svg class="bd-placeholder-img img-thumbnail" width="200" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera: 200x200" preserveAspectRatio="xMidYMid slice" focusable="false"><title>A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera</title><rect width="100%" height="100%" fill="#868e96"/></svg>
+        <div class="bd-example pt-4">
+          <img src="https://loremflickr.com/300/300" class='img-fluid' /> 
         </div>
       </div>
 
@@ -329,7 +329,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
 
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
         <hr class='my-4'><h3>Tables</h3>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/content/tables/">Tables Documentation</a><hr class='my-4'>
+        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.3/content/tables/">Tables Documentation</a><hr class='my-4'>
       </div>
 
       <div>
@@ -495,7 +495,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
 
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
         <hr class='my-4'><h3>Figures</h3>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/content/figures/">Figures Documentation</a><hr class='my-4'>
+        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.3/content/figures/">Figures Documentation</a><hr class='my-4'>
       </div>
 
       <div>
@@ -515,7 +515,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
     <article class="my-3" id="overview">
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
        <hr class='my-4'><h3>Overview</h3>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/forms/overview/">Overview Documentation</a><hr class='my-4'>
+        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.3/forms/overview/">Overview Documentation</a><hr class='my-4'>
       </div>
 
       <div>
@@ -565,7 +565,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
     <article class="my-3" id="disabled-forms">
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
        <hr class='my-4'><h3>Disabled forms</h3>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/forms/overview/#disabled-forms">Disabled Forms Documentation</a><hr class='my-4'>
+        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.3/forms/overview/#disabled-forms">Disabled Forms Documentation</a><hr class='my-4'>
       </div>
 
       <div>
@@ -622,7 +622,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
     <article class="my-3" id="sizing">
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
        <hr class='my-4'><h3>Sizing</h3>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/forms/form-control/#sizing">Sizing Documentation</a><hr class='my-4'>
+        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.3/forms/form-control/#sizing">Sizing Documentation</a><hr class='my-4'>
       </div>
 
       <div>
@@ -664,7 +664,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
     <article class="my-3" id="input-group">
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
        <hr class='my-4'><h3>Input group</h3>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/forms/input-group/">Input Group Documentation</a><hr class='my-4'>
+        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.3/forms/input-group/">Input Group Documentation</a><hr class='my-4'>
       </div>
 
       <div>
@@ -697,7 +697,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
     <article class="my-3" id="floating-labels">
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
        <hr class='my-4'><h3>Floating labels</h3>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/forms/floating-labels/">Floating Labels Documentation</a><hr class='my-4'>
+        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.3/forms/floating-labels/">Floating Labels Documentation</a><hr class='my-4'>
       </div>
 
       <div>
@@ -724,7 +724,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
     <article class="my-3" id="accordion">
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
        <hr class='my-4'><h3>Accordion</h3>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/components/accordion/">Accordian Documentation</a><hr class='my-4'>
+        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.3/components/accordion/">Accordian Documentation</a><hr class='my-4'>
       </div>
 
       <div>
@@ -773,7 +773,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
     <article class="my-3" id="alerts">
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
        <hr class='my-4'><h3>Alerts</h3>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/components/alerts/">Alerts Documentation</a><hr class='my-4'>
+        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.3/components/alerts/">Alerts Documentation</a><hr class='my-4'>
       </div>
 
       <div>
@@ -826,7 +826,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
     <article class="my-3" id="badge">
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
        <hr class='my-4'><h3>Badge</h3>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/components/badge/">Badge Documentation</a><hr class='my-4'>
+        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.3/components/badge/">Badge Documentation</a><hr class='my-4'>
       </div>
 
       <div>
@@ -865,7 +865,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
     <article class="my-3" id="breadcrumb">
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
        <hr class='my-4'><h3>Breadcrumb</h3>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/components/breadcrumb/">Breadcrumb Documentation</a><hr class='my-4'>
+        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.3/components/breadcrumb/">Breadcrumb Documentation</a><hr class='my-4'>
       </div>
 
       <div>
@@ -883,7 +883,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
     <article class="my-3" id="buttons">
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
        <hr class='my-4'><h3>Buttons</h3>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/components/buttons/">Buttons Documentation</a><hr class='my-4'>
+        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.3/components/buttons/">Buttons Documentation</a><hr class='my-4'>
       </div>
 
       <div>
@@ -919,7 +919,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
     <article class="my-3" id="button-group">
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
        <hr class='my-4'><h3>Button group</h3>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/components/button-group/">Button Group Documentation</a><hr class='my-4'>
+        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.3/components/button-group/">Button Group Documentation</a><hr class='my-4'>
       </div>
 
       <div>
@@ -946,7 +946,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
     <article class="my-3" id="card">
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
        <hr class='my-4'><h3>Card</h3>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/components/card/">Card Documentation</a><hr class='my-4'>
+        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.3/components/card/">Card Documentation</a><hr class='my-4'>
       </div>
 
       <div>
@@ -1015,7 +1015,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
     <article class="my-3" id="dropdowns">
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
        <hr class='my-4'><h3>Dropdowns</h3>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/components/dropdowns/">Dropdowns Documentation</a><hr class='my-4'>
+        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.3/components/dropdowns/">Dropdowns Documentation</a><hr class='my-4'>
       </div>
 
       <div>
@@ -1197,7 +1197,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
     <article class="my-3" id="list-group">
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
        <hr class='my-4'><h3>List group</h3>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/components/list-group/">List Group Documentation</a><hr class='my-4'>
+        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.3/components/list-group/">List Group Documentation</a><hr class='my-4'>
       </div>
 
       <div>
@@ -1240,7 +1240,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
     <article class="my-3" id="modal">
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
        <hr class='my-4'><h3>Modal</h3>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/components/modal/">Modal Documentation</a><hr class='my-4'>
+        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.3/components/modal/">Modal Documentation</a><hr class='my-4'>
       </div>
 
       <div>
@@ -1265,7 +1265,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
     <article class="my-3" id="navs">
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
        <hr class='my-4'><h3>Navs</h3>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/components/navs-tabs/">Nav Tabs Documentation</a><hr class='my-4'>
+        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.3/components/navs-tabs/">Nav Tabs Documentation</a><hr class='my-4'>
       </div>
 
       <div>
@@ -1322,7 +1322,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
     <article class="my-3" id="pagination">
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
        <hr class='my-4'><h3>Pagination</h3>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/components/pagination/">Pagination Documentation</a><hr class='my-4'>
+        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.3/components/pagination/">Pagination Documentation</a><hr class='my-4'>
       </div>
 
       <div>
@@ -1381,7 +1381,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
        <hr class='my-4'><h3>Popovers</h3>
        <div class='alert alert-info'>NOTICE: These will only work if you initialize them.  See the documentation.</div>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/components/popovers/">Popovers Documentation</a><hr class='my-4'>
+        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.3/components/popovers/">Popovers Documentation</a><hr class='my-4'>
       </div>
 
       <div>
@@ -1409,7 +1409,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
     <article class="my-3" id="spinners">
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
        <hr class='my-4'><h3>Spinners</h3>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/components/spinners/">Spinners Documentation</a><hr class='my-4'>
+        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.3/components/spinners/">Spinners Documentation</a><hr class='my-4'>
       </div>
 
       <div>
@@ -1468,7 +1468,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
       <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
         <hr class='my-4'><h3>Tooltips</h3>
         <div class='alert alert-info'>NOTICE: These will only work if you initialize them.  See the documentation.</div>
-        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.2/components/tooltips/">Tooltips Documentation</a><hr class='my-4'>
+        <a class="d-flex align-items-center" href="https://getbootstrap.com/docs/5.3/components/tooltips/">Tooltips Documentation</a><hr class='my-4'>
       </div>
 
       <div>
