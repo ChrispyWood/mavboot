@@ -48,7 +48,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
 
   <h1>Lorem Ipsum Lab</h1>
 
-    <p class="lead">This template uses the Bootstrap framework. View the <a href="https://getbootstrap.com/docs/5.2/getting-started/introduction/">Bootstrap 
+    <p class="lead">This template uses the Bootstrap framework. View the <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Bootstrap 
     Documentation</a> to learn the many options for styling. Almost everything has a CSS class to render appropriately and attractively.</p>
 
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel sem facilisis, suscipit dolor ac, volutpat nisi. In vitae tristique nisi. 

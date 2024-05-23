@@ -19,15 +19,15 @@ See getbootstrap.com
 <nav title="Banner and Global UTA Navigation" >
   <div id="global-navigation" class="d-flex justify-content-between navbar-dark">
     <div class="d-flex align-items-center">
-        <a class="navbar-brand ps-3" href="https://www.uta.edu/">
+        <a class="navbar-brand" href="https://www.uta.edu/">
           <img src="<?php echo $subpage_depth;?>_images/uta/uta-logo.png" id="uta-logo" alt="The University of Texas at Arlington logo">
           <span class='visually-hidden'>The University of Texas at Arlington</span>
         </a>
-        <span id="site-title" class="h2 ps-3 mt-1"><?php echo $sitename;?></span>
+        <span id="site-title" class="h2 mt-1"><?php echo $sitename;?></span>
     </div>
     
-    <div class="d-flex align-items-center pe-3">
-      <a class="p-2 text-light d-none d-lg-block" href="<?php echo $parent_site_url?>">
+    <div class="d-flex align-items-center">
+      <a class="p-2 text-light d-none d-lg-block pe-3" href="<?php echo $parent_site_url?>">
         <?php echo $parentsite; ?>
       </a>
       <button class="navbar-toggler d-lg-none m-1" type="button" data-bs-toggle="collapse" data-bs-target="#theNavbar" aria-controls="theNavbar" aria-expanded="false" aria-label="Toggle navigation">
