@@ -17,7 +17,7 @@ Remember that .sr-only means screen reader only.
         <div class='col-lg-4 col-md-6 pt-2'>
           <span class='social-icons'>
             <a href="https://www.facebook.com/mavengineering/"><span class="fab fa-facebook-square"><span class='sr-only'>Our Facebook Page</span></span></a>
-            <a href="https://twitter.com/mavengineering"><span class="fab fa-twitter-square"><span class='sr-only'>Our Twitter Page</span></span></a>
+            <a href="https://twitter.com/mavengineering"><span class="fab fa-twitter-square"><span class='sr-only'>Our X Page</span></span></a>
             <a href="https://www.instagram.com/mavengineering/"><span class="fab fa-instagram"><span class='sr-only'>Our Instagram Page</span></span></a>
             <a href="https://www.linkedin.com/school/ut-arlington-college-of-engineering/"><span class="fab fa-linkedin"><span class='sr-only'>Our LinkedIn Page</span></span></a>
           </span>
@@ -29,7 +29,7 @@ Remember that .sr-only means screen reader only.
             <a href="https://accessibility.uta.edu/">Accessibility</a> |
             <a href="https://www.uta.edu/site-policies">Site Policies</a><br>
             <a href="https://www.uta.edu">&copy; <?php echo date("Y"); ?> The University of Texas at Arlington</a><br>
-            <span class='small'>Updated/reviewed on May 23, 2024</span>
+            <span class='small'>Updated/reviewed on June 18, 2024</span>
           </p>
         </div>
       </div>
