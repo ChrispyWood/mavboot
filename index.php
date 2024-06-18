@@ -60,7 +60,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
     <p class="lead">This template uses the Bootstrap framework. View the <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Bootstrap 
     Documentation</a> to learn the many options for styling. Almost everything has a CSS class to render appropriately and attractively.</p>
 
-    <p class="lead">The approriate css and fonts are loaded to use both <a href='https://fontawesome.com/icons'>Font Awesome feee icons</a> and <a href='https://icons.getbootstrap.com/'>Bootstrap Icons</a>.</p>
+    <p class="lead">The appropriate css and fonts are loaded to use both <a href='https://fontawesome.com/icons'>Font Awesome feee icons</a> and <a href='https://icons.getbootstrap.com/'>Bootstrap Icons</a>.</p>
 
     <p class="lead">
       The web developer in the Dean of Engineering Office can help set a website up for you, or find a php and an html version of the theme at:<br><a style='word-break:break-all' href='https://github.com/ChrispyWood/mavboot'>https://github.com/ChrispyWood/mavboot</a>
@@ -315,11 +315,11 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
 
       <div>
         <div class="bd-example">
-          <img src="https://loremflickr.com/1200/260" class='img-fluid' alt="Some Things we found arranged in a  Photo" />
+          <img src="./_images/sample-1200-260.jpg" class='img-fluid' alt="Some Things we found arranged in a  Photo" />
         </div>
 
         <div class="bd-example pt-4">
-          <img src="https://loremflickr.com/300/300" class='img-fluid' alt="Some Stuff that belongs in an engineering Photo" /> 
+          <img src="./_images/sample-300-300.jpg" class='img-fluid' alt="Some Stuff that belongs in an engineering Photo" /> 
         </div>
       </div>
 
@@ -501,7 +501,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
       <div>
         <div class="bd-example">
         <figure class="figure">
-          <img src="https://loremflickr.com/400/300" alt="Cats may be in this photo because it is randomly gnerated." />
+          <img src="./_images/sample-400-300.jpg" alt="Cats may be in this photo because it is randomly gnerated." />
           <figcaption class="figure-caption">A caption for the above image.</figcaption>
         </figure>
         </div>
@@ -552,10 +552,6 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
           <div class="mb-3 form-check form-switch">
             <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
             <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
-          </div>
-          <div class="mb-3">
-            <label for="customRange3" class="form-label">Example range</label>
-            <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
@@ -608,10 +604,6 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
             <div class="mb-3 form-check form-switch">
               <input class="form-check-input" type="checkbox" id="disabledSwitchCheckChecked" checked disabled>
               <label class="form-check-label" for="disabledSwitchCheckChecked">Disabled checked switch checkbox input</label>
-            </div>
-            <div class="mb-3">
-              <label for="disabledRange" class="form-label">Disabled range</label>
-              <input type="range" class="form-range" min="0" max="5" step="0.5" id="disabledRange">
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </fieldset>
@@ -954,7 +946,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
         <div class="row  row-cols-1 row-cols-md-2 g-4">
           <div class="col">
             <div class="card">
-              <img src="https://loremflickr.com/900/360" alt="Some random cats in the Big Photo" />
+              <img src="./_images/sample-900-360.jpg" alt="Some random cats in the Big Photo" />
               <div class="card-body">
                 <h4 class="card-title">Card title</h4>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -995,7 +987,7 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
             <div class="card">
               <div class="row g-0">
                 <div class="col-md-4">
-                  <img src="https://loremflickr.com/180/300" class='img-fluid' alt="Some Cat photos in this Photo"/>
+                  <img src="./_images/sample-180-300.jpg" class='img-fluid' alt="Some Cat photos in this Photo"/>
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
@@ -1273,7 +1265,6 @@ include "_includes/02-sitenavigation.php"; // This site Navigation
         <nav class="nav" title='example-nav-1'>
           <a class="nav-link active" aria-current="page" href="https://google.com">Google</a>
           <a class="nav-link" href="https://yahoo.com">Yahoo!</a>
-          <a class="nav-link" href="https://altavist.com">AltaVista</a>
           <a class="nav-link disabled" tabindex="-1" aria-disabled="true">Disabled</a>
         </nav>
         </div>
