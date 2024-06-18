@@ -10,11 +10,11 @@ Three versions are available.
 
 ### HTML
 An HTML Version has all the files for implementation with just HTML and Bootstrap's CSS Classes.  
-[HTML Version 240523](https://github.com/ChrispyWood/mavboot/raw/master/___versions/mavboot_html_240618.zip)
+[HTML Version 240618](https://github.com/ChrispyWood/mavboot/raw/master/___versions/mavboot_html_240618.zip)
 
 ### PHP
 A PHP version that is easier to maintain but requires a little familiarity with PHP.  
-[PHP Version 240523](https://github.com/ChrispyWood/mavboot/raw/master/___versions/mavboot_php_240618.zip)
+[PHP Version 240618](https://github.com/ChrispyWood/mavboot/raw/master/___versions/mavboot_php_240618.zip)
 
 ### Git
 A GitHub project which includes the build files for theming Bootstrap.  This requires SASS and familiarity with Node Package Manager, command-line environments, PHP, HTML, and CSS. 
